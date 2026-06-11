@@ -6,7 +6,7 @@ import { ScienceSection } from './components/ScienceSection';
 import { ProtocolSection } from './components/ProtocolSection';
 import { SettleNewsletterBanner } from './components/SettleNewsletterBanner';
 import { Footer } from './components/Footer';
- 
+
 function AppContent() {
   return (
     <div className="min-h-screen bg-white">
@@ -20,7 +20,7 @@ function AppContent() {
     </div>
   );
 }
- 
+
 export default function App() {
   return (
     <LanguageProvider>

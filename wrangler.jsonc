@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "vyntas-web",
+  "compatibility_date": "2026-06-11",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "VYNTAS_WEB_COMPLETA"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}

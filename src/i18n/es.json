@@ -1,0 +1,43 @@
+{
+  "nav": {
+    "ciencia": "Ciencia",
+    "protocolos": "Protocolos",
+    "revista": "Revista",
+    "nosotros": "Nosotros",
+    "newsletter": "Newsletter"
+  },
+  "hero": {
+    "tagline": "LONGEVIDAD · SUEÑO · RECUPERACIÓN",
+    "title": "Vive más.",
+    "subtitle": "Vive mejor.",
+    "description": "Divulgación e investigación independiente sobre longevidad celular y gerontología."
+  },
+  "about": {
+    "title": "Sobre Nosotros",
+    "reality": "La Realidad de la Industria",
+    "reality_text": "La industria de suplementos está saturada de productos con excipientes nocivos como estearato de magnesio, cápsulas de dióxido de titanio, dosis subclínicas a precios desorbitados y afirmaciones sin evidencia analítica previa.",
+    "proposal": "Nuestra Propuesta",
+    "proposal_text": "VYNTAS ofrece traducción científica pura, dosificaciones de grado clínico, curación rigurosa de productos e independencia metodológica absoluta. Vendemos claridad, no marketing.",
+    "quote": "No vendemos cápsulas todavía. Vendemos claridad.",
+    "quote_author": "Daniel Malagón Periáñez, Fundador, VYNTAS (Sevilla, 2026)"
+  },
+  "science": {
+    "title": "Investigación Científica",
+    "official": "Ver Publicación Oficial"
+  },
+  "protocols": {
+    "title": "Protocolos de Longevidad"
+  },
+  "newsletter": {
+    "title": "Bio-Letter",
+    "subtitle": "Resúmenes semanales de metanálisis sobre longevidad. No contiene marketing agresivo. No vendemos cápsulas todavía. Vendemos claridad.",
+    "subscribe": "Suscribirse",
+    "or": "O escribenos directamente:",
+    "success": "¡Bienvenido a BIO-LETTER!",
+    "success_text": "Tu suscripción ha sido registrada. Pronto recibirás resúmenes semanales de metanálisis sobre longevidad celular."
+  },
+  "footer": {
+    "copyright": "VYNTAS · Divulgación Científica Independiente · Sevilla, 2026",
+    "contact": "Contacto:"
+  }
+}

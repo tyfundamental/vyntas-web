@@ -1,0 +1,43 @@
+{
+  "nav": {
+    "ciencia": "Science",
+    "protocolos": "Protocols",
+    "revista": "Magazine",
+    "nosotros": "About",
+    "newsletter": "Newsletter"
+  },
+  "hero": {
+    "tagline": "LONGEVITY · SLEEP · RECOVERY",
+    "title": "Live more.",
+    "subtitle": "Live better.",
+    "description": "Independent dissemination and research on cellular longevity and gerontology."
+  },
+  "about": {
+    "title": "About us",
+    "reality": "The Reality of the Industry",
+    "reality_text": "The supplement industry is saturated with products containing harmful excipients like magnesium stearate, titanium dioxide capsules, sub-clinical doses at exorbitant prices, and claims without prior analytical evidence.",
+    "proposal": "Our Proposal",
+    "proposal_text": "VYNTAS offers pure scientific translation, clinical-grade dosages, rigorous product curation, and absolute methodological independence. We sell clarity, not marketing.",
+    "quote": "We don't sell capsules yet. We sell clarity.",
+    "quote_author": "Daniel Malagón Periáñez, Founder, VYNTAS (Seville, 2026)"
+  },
+  "science": {
+    "title": "Scientific Research",
+    "official": "View Official Publication"
+  },
+  "protocols": {
+    "title": "Longevity Protocols"
+  },
+  "newsletter": {
+    "title": "Bio-Letter",
+    "subtitle": "Weekly summaries of longevity meta-analyses. No aggressive marketing. We don't sell capsules yet. We sell clarity.",
+    "subscribe": "Subscribe",
+    "or": "Or write us directly:",
+    "success": "Welcome to BIO-LETTER!",
+    "success_text": "Your subscription has been registered. Soon you will receive weekly summaries of meta-analyses on cellular longevity."
+  },
+  "footer": {
+    "copyright": "VYNTAS · Independent Scientific Dissemination · Seville, 2026",
+    "contact": "Contact:"
+  }
+}

@@ -128,7 +128,7 @@ const founderEs = {
     { when: '2011', what: 'Licenciado en Física', where: 'Universidad de Sevilla' },
   ] as CvEntry[],
   research:
-    'Coautor de cuatro artículos en revistas indexadas en JCR, dos de ellos como primer autor, publicados en Microelectronics Reliability, IEEE Transactions on Emerging Topics in Computing e IEEE Transactions on Nuclear Science. Estos son los dos artículos como primer autor:',
+    'Coautor de cuatro artículos en revistas indexadas en JCR, dos de ellos como primer autor, publicados en Microelectronics Reliability, IEEE Transactions on Emerging Topics in Computing e IEEE Transactions on Nuclear Science. Otros artículos:',
   skills: [
     'Modelos de lenguaje abiertos y despliegue de IA en servidores propios',
     'Python, Kotlin y Android, desarrollo web',
@@ -196,7 +196,7 @@ const founderEn: typeof founderEs = {
     { when: '2011', what: 'Degree in Physics', where: 'University of Seville' },
   ],
   research:
-    'Co-author of four papers in JCR-indexed journals, two as first author, published in Microelectronics Reliability, IEEE Transactions on Emerging Topics in Computing and IEEE Transactions on Nuclear Science. These are the two first-author papers:',
+    'Co-author of four papers in JCR-indexed journals, two as first author, published in Microelectronics Reliability, IEEE Transactions on Emerging Topics in Computing and IEEE Transactions on Nuclear Science. Other papers:',
   skills: [
     'Open language models and AI deployment on in-house servers',
     'Python, Kotlin and Android, web development',

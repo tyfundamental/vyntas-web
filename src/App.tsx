@@ -1,28 +1,145 @@
-import { LanguageProvider } from './context/LanguageContext';
-import { Header } from './components/Header';
-import { Hero } from './components/Hero';
-import { About } from './components/About';
-import { Science } from './components/Science';
-import { Newsletter } from './components/Newsletter';
-import { Footer } from './components/Footer';
+import { useEffect, useState } from 'react'
+import { content, mailto, EMAIL, type Lang } from './content'
+import Trace from './Trace'
 
-function AppContent() {
-  return (
-    <div className="min-h-screen bg-white">
-      <Header />
-      <Hero />
-      <About />
-      <Science />
-      <Newsletter />
-      <Footer />
-    </div>
-  );
+function initialLang(): Lang {
+  try {
+    const saved = localStorage.getItem('vyntas-lang')
+    if (saved === 'es' || saved === 'en') return saved
+  } catch {
+    /* storage unavailable */
+  }
+  return navigator.language?.toLowerCase().startsWith('es') ? 'es' : 'en'
 }
 
 export default function App() {
+  const [lang, setLang] = useState<Lang>(initialLang)
+  const t = content[lang]
+
+  useEffect(() => {
+    document.documentElement.lang = lang
+    try {
+      localStorage.setItem('vyntas-lang', lang)
+    } catch {
+      /* storage unavailable */
+    }
+  }, [lang])
+
   return (
-    <LanguageProvider>
-      <AppContent />
-    </LanguageProvider>
-  );
+    <>
+      <a className="skip" href="#main">
+        {lang === 'es' ? 'Saltar al contenido' : 'Skip to content'}
+      </a>
+      <header className="top wrap">
+        <a className="brand" href="#top" aria-label="Vyntas">
+          <svg viewBox="0 0 32 32" aria-hidden="true">
+            <path d="M5 8 L16 23 L27 8" />
+          </svg>
+          vyntas
+        </a>
+        <nav aria-label={lang === 'es' ? 'Principal' : 'Main'}>
+          <a href="#trabajo">{t.nav.work}</a>
+          <a href="#para-quien">{t.nav.audience}</a>
+          <a href="#proximos">{t.nav.next}</a>
+          <a href="#quien">{t.nav.about}</a>
+        </nav>
+        <button className="lang" onClick={() => setLang(lang === 'es' ? 'en' : 'es')}>
+          {t.langSwitch}
+        </button>
+      </header>
+
+      <main id="main">
+        <section className="hero wrap" id="top">
+          <div className="hero-text">
+            <h1>{t.hero.title}</h1>
+            <p className="lead">{t.hero.lead}</p>
+            <div className="actions">
+              <a className="btn btn-primary" href={mailto(t.contact.newsletterSubject)}>
+                {t.hero.primary}
+              </a>
+              <a className="btn btn-quiet" href={mailto(t.contact.projectSubject)}>
+                {t.hero.secondary}
+              </a>
+            </div>
+          </div>
+          <Trace markers={t.hero.markers} label={t.hero.traceLabel} />
+        </section>
+
+        <section className="work wrap" id="trabajo">
+          <h2>{t.work.title}</h2>
+          <dl>
+            {t.work.items.map((it) => (
+              <div className="work-row" key={it.name}>
+                <dt>{it.name}</dt>
+                <dd>{it.text}</dd>
+              </div>
+            ))}
+          </dl>
+        </section>
+
+        <section className="audience" id="para-quien">
+          <div className="wrap">
+            <h2>{t.audience.title}</h2>
+            <div className="groups">
+              {t.audience.groups.map((g) => (
+                <article key={g.name}>
+                  <h3>{g.name}</h3>
+                  <p>{g.text}</p>
+                  <a href={mailto(g.subject)}>{g.cta}</a>
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="next wrap" id="proximos">
+          <div className="next-head">
+            <h2>{t.next.title}</h2>
+            <p>{t.next.note}</p>
+          </div>
+          <ul>
+            {t.next.items.map((it) => (
+              <li key={it}>{it}</li>
+            ))}
+          </ul>
+        </section>
+
+        <section className="about wrap" id="quien">
+          <h2>{t.about.title}</h2>
+          <div className="about-body">
+            {t.about.paragraphs.map((p) => (
+              <p key={p}>{p}</p>
+            ))}
+          </div>
+        </section>
+
+        <section className="contact" id="contacto">
+          <div className="wrap contact-inner">
+            <div>
+              <h2>{t.contact.title}</h2>
+              <p>{t.contact.text}</p>
+              <a className="contact-mail" href={`mailto:${EMAIL}`}>
+                {EMAIL}
+              </a>
+            </div>
+            <div className="actions">
+              <a className="btn btn-amber" href={mailto(t.contact.newsletterSubject)}>
+                {t.contact.newsletter}
+              </a>
+              <a className="btn btn-outline" href={mailto(t.contact.projectSubject)}>
+                {t.contact.project}
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer className="wrap foot">
+        <span>
+          © {new Date().getFullYear()} {t.footer.rights}
+        </span>
+        <span>{t.footer.youtube}</span>
+      </footer>
+    </>
+  )
 }

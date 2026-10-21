@@ -66,8 +66,7 @@ export default function App() {
         </a>
         <nav aria-label={lang === 'es' ? 'Principal' : 'Main'}>
           <a href="#trabajo">{t.nav.work}</a>
-          <a href="#mercados">{t.nav.markets}</a>
-          <a href="#contenidos">{t.nav.content}</a>
+          <a href="#para-quien">{t.nav.audience}</a>
           <a href="#proximos">{t.nav.next}</a>
           <a href="#fundador" aria-current={page === 'fundador' ? 'page' : undefined}>
             {t.nav.about}
@@ -112,33 +111,6 @@ export default function App() {
           </dl>
         </section>
 
-        <section className="lines wrap" aria-labelledby="lines-title">
-          <div className="lines-head">
-            <h2 id="lines-title">{t.lines.title}</h2>
-            <p>{t.lines.intro}</p>
-          </div>
-          <div className="lines-grid">
-            {[t.lines.markets, t.lines.content].map((l, i) => (
-              <article className={`line line-${l.id}`} id={l.id} key={l.id}>
-                <h3>{l.name}</h3>
-                <p>{l.text}</p>
-                <ul>
-                  {l.points.map((pt) => (
-                    <li key={pt}>{pt}</li>
-                  ))}
-                </ul>
-                <p className={i === 0 ? 'line-disclaimer' : 'line-note'}>{l.disclaimer}</p>
-                <a
-                  className="line-cta"
-                  href={i === 0 ? '#newsletter' : mailto((l as typeof t.lines.content).subject)}
-                >
-                  {l.cta}
-                </a>
-              </article>
-            ))}
-          </div>
-        </section>
-
         <section className="audience" id="para-quien">
           <div className="wrap">
             <h2>{t.audience.title}</h2>
@@ -151,6 +123,20 @@ export default function App() {
                 </article>
               ))}
             </div>
+          </div>
+        </section>
+
+        <section className="lines wrap" aria-labelledby="lines-title">
+          <h2 id="lines-title">{t.lines.title}</h2>
+          <p className="lines-intro">{t.lines.intro}</p>
+          <div className="lines-grid">
+            {[t.lines.markets, t.lines.content].map((l) => (
+              <article className="line" id={l.id} key={l.id}>
+                <h3>{l.name}</h3>
+                <p>{l.text}</p>
+                <p className="line-note">{l.disclaimer}</p>
+              </article>
+            ))}
           </div>
         </section>
 

@@ -4,6 +4,7 @@ import Trace from './Trace'
 import Newsletter from './Newsletter'
 import Founder from './Founder'
 import Legal from './Legal'
+import { LINKEDIN } from './pages'
 
 type Page = 'home' | 'fundador' | 'aviso-legal' | 'privacidad'
 const PAGES: Page[] = ['fundador', 'aviso-legal', 'privacidad']
@@ -194,6 +195,9 @@ export default function App() {
           <a href="#fundador">{t.footer.founder}</a>
           <a href="#aviso-legal">{t.footer.legal}</a>
           <a href="#privacidad">{t.footer.privacy}</a>
+          <a href={LINKEDIN} target="_blank" rel="noopener noreferrer">
+            LinkedIn
+          </a>
         </nav>
         <span>{t.footer.youtube}</span>
       </footer>

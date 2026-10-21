@@ -9,6 +9,73 @@ export const OWNER = {
   domain: 'vyntas.com',
 }
 
+export const LINKEDIN = 'https://www.linkedin.com/in/daniel-malag%C3%B3n-peri%C3%A1nez-a1679948'
+
+export type Pub = { title: string; authors: string; venue: string; url: string }
+export const PUBLICATIONS: Pub[] = [
+  {
+    title: 'Single Event Upsets characterization of 65 nm CMOS 6T and 8T SRAM cells for ground level environment',
+    authors: 'D. Malagón, G. Torrens, J. Segura, S. A. Bota',
+    venue: 'Microelectronics Reliability 110, 113696 (2020)',
+    url: 'https://doi.org/10.1016/j.microrel.2020.113696',
+  },
+  {
+    title: 'Soft error rate comparison of 6T and 8T SRAM ICs using mono-energetic proton and neutron irradiation sources',
+    authors: 'D. Malagón, S. A. Bota, G. Torrens, X. Gili, J. Praena, B. Fernández, M. Macías, J. M. Quesada, C. Guerrero, M. C. Jiménez-Ramos, J. García López, J. L. Merino, J. Segura',
+    venue: 'Microelectronics Reliability 78, 38–45 (2017)',
+    url: 'https://doi.org/10.1016/j.microrel.2017.07.093',
+  },
+]
+
+export type Press = { title: Record<'es' | 'en', string>; outlet: string; date: string; url: string }
+export const PRESS: Press[] = [
+  {
+    title: {
+      es: 'Circuitos electrónicos más robustos frente a las radiaciones ionizantes',
+      en: 'More robust electronic circuits against ionizing radiation (on his doctoral thesis)',
+    },
+    outlet: 'Diari de la UIB',
+    date: '2018',
+    url: 'https://diari.uib.es/Hemeroteca/Circuitos-electronicos-mas-robustos-frente-a-las.cid561981',
+  },
+  {
+    title: {
+      es: 'La tesis del físico almonteño Daniel Malagón, reconocida con un Cum Laude',
+      en: 'Doctoral thesis awarded Cum Laude',
+    },
+    outlet: 'Huelva Buenas Noticias',
+    date: '2018',
+    url: 'https://huelvabuenasnoticias.com/2018/08/21/la-tesis-del-fisico-almonteno-daniel-malagon-reconocida-con-un-cum-laude/',
+  },
+  {
+    title: {
+      es: 'Almonte reconoce la labor de personas y entidades con la entrega de sus Premios Andalucía',
+      en: 'Almonte’s Andalucía Award, Science category',
+    },
+    outlet: 'Diario de Huelva',
+    date: '2018',
+    url: 'https://www.diariodehuelva.es/provincia/almonte-reconoce-la-labor-personas-entidades-la-entrega-premios-andalucia/20180301172333169365.html',
+  },
+  {
+    title: {
+      es: 'El CNA emplea protones y neutrones para testear circuitos electrónicos',
+      en: 'Proton and neutron testing of electronic circuits at the National Accelerator Centre',
+    },
+    outlet: 'Centro Nacional de Aceleradores',
+    date: '2017',
+    url: 'https://cna.us.es/index.php/en/news/press-releases/671-el-cna-emplea-protones-y-neutrones-para-testear-circuitos-electronicos',
+  },
+  {
+    title: {
+      es: 'El físico almonteño Daniel Malagón lleva un experimento pionero hasta el CERN',
+      en: 'A pioneering experiment taken to CERN',
+    },
+    outlet: 'Huelva Buenas Noticias',
+    date: '2016',
+    url: 'https://huelvabuenasnoticias.com/2016/11/02/el-fisico-almonteno-daniel-malagon-lleva-un-experimento-pionero-hasta-la-organizacion-europea-para-la-investigacion-nuclear-de-suiza/',
+  },
+]
+
 type CvEntry = { when: string; what: string; where: string; detail?: string }
 
 const founderEs = {
@@ -20,6 +87,9 @@ const founderEs = {
     experience: 'Experiencia',
     education: 'Formación',
     research: 'Publicaciones',
+    awards: 'Reconocimientos',
+    press: 'En prensa',
+    linkedin: 'Perfil de LinkedIn',
     skills: 'Competencias',
     languages: 'Idiomas',
     other: 'Otros',
@@ -51,14 +121,14 @@ const founderEs = {
       when: '2018',
       what: 'Doctor en Ingeniería Electrónica',
       where: 'Universitat de les Illes Balears',
-      detail: 'Tesis sobre errores transitorios inducidos por radiación en moduladores sigma-delta y memorias SRAM.',
+      detail: 'Tesis «A Contribution to the Characterization of Radiation-induced Soft Errors in Sigma-Delta Modulators and SRAM Memories», calificada Cum Laude.',
     },
     { when: '2022', what: 'Máster en Profesorado (MAES)', where: 'Universidad de Huelva' },
     { when: '2014', what: 'Máster en Microelectrónica', where: 'Universidad de Sevilla' },
     { when: '2011', what: 'Licenciado en Física', where: 'Universidad de Sevilla' },
   ] as CvEntry[],
   research:
-    'Coautor de cuatro artículos en revistas indexadas en JCR, dos de ellos como primer autor, publicados en Microelectronics Reliability, IEEE Transactions on Emerging Topics in Computing e IEEE Transactions on Nuclear Science.',
+    'Coautor de cuatro artículos en revistas indexadas en JCR, dos de ellos como primer autor, publicados en Microelectronics Reliability, IEEE Transactions on Emerging Topics in Computing e IEEE Transactions on Nuclear Science. Estos son los dos artículos como primer autor:',
   skills: [
     'Modelos de lenguaje abiertos y despliegue de IA en servidores propios',
     'Python, Kotlin y Android, desarrollo web',
@@ -67,6 +137,10 @@ const founderEs = {
     'Docencia y divulgación técnica',
   ],
   languages: ['Español, nativo', 'Portugués, C1', 'Inglés, B2'],
+  awards: [
+    'Premio Andalucía 2018 del Ayuntamiento de Almonte, categoría Ciencia',
+    'Tesis doctoral calificada Cum Laude (2018)',
+  ],
   other: 'Autor de la novela «El hombre que dobló el tiempo».',
   back: 'Volver al inicio',
   contact: 'Contactar',
@@ -81,6 +155,9 @@ const founderEn: typeof founderEs = {
     experience: 'Experience',
     education: 'Education',
     research: 'Publications',
+    awards: 'Recognition',
+    press: 'In the press',
+    linkedin: 'LinkedIn profile',
     skills: 'Skills',
     languages: 'Languages',
     other: 'Other',
@@ -112,14 +189,14 @@ const founderEn: typeof founderEs = {
       when: '2018',
       what: 'PhD in Electronic Engineering',
       where: 'University of the Balearic Islands',
-      detail: 'Thesis on radiation-induced soft errors in sigma-delta modulators and SRAM memories.',
+      detail: 'Thesis «A Contribution to the Characterization of Radiation-induced Soft Errors in Sigma-Delta Modulators and SRAM Memories», awarded Cum Laude.',
     },
     { when: '2022', what: 'Master’s in Secondary Teaching', where: 'University of Huelva' },
     { when: '2014', what: 'Master’s in Microelectronics', where: 'University of Seville' },
     { when: '2011', what: 'Degree in Physics', where: 'University of Seville' },
   ],
   research:
-    'Co-author of four papers in JCR-indexed journals, two as first author, published in Microelectronics Reliability, IEEE Transactions on Emerging Topics in Computing and IEEE Transactions on Nuclear Science.',
+    'Co-author of four papers in JCR-indexed journals, two as first author, published in Microelectronics Reliability, IEEE Transactions on Emerging Topics in Computing and IEEE Transactions on Nuclear Science. These are the two first-author papers:',
   skills: [
     'Open language models and AI deployment on in-house servers',
     'Python, Kotlin and Android, web development',
@@ -128,6 +205,10 @@ const founderEn: typeof founderEs = {
     'Teaching and technical communication',
   ],
   languages: ['Spanish, native', 'Portuguese, C1', 'English, B2'],
+  awards: [
+    'Andalucía Award 2018 from Almonte Town Council, Science category',
+    'Doctoral thesis awarded Cum Laude (2018)',
+  ],
   other: 'Author of the novel «El hombre que dobló el tiempo».',
   back: 'Back to home',
   contact: 'Get in touch',

@@ -1,4 +1,4 @@
-import { founder } from './pages'
+import { founder, LINKEDIN, PUBLICATIONS, PRESS } from './pages'
 import { mailto, type Lang } from './content'
 
 export default function Founder({ lang }: { lang: Lang }) {
@@ -27,9 +27,14 @@ export default function Founder({ lang }: { lang: Lang }) {
         <p className="founder-role">{f.role}</p>
         <h1>{f.title}</h1>
         <p className="founder-summary">{f.summary}</p>
-        <a className="btn btn-primary" href={mailto(lang === 'es' ? 'Contacto con el fundador' : 'Contact the founder')}>
-          {f.contact}
-        </a>
+        <div className="actions founder-actions">
+          <a className="btn btn-primary" href={mailto(lang === 'es' ? 'Contacto con el fundador' : 'Contact the founder')}>
+            {f.contact}
+          </a>
+          <a className="btn btn-quiet" href={LINKEDIN} target="_blank" rel="noopener noreferrer">
+            {f.sections.linkedin}
+          </a>
+        </div>
       </header>
 
       <section className="cv-section">
@@ -45,7 +50,45 @@ export default function Founder({ lang }: { lang: Lang }) {
       <section className="cv-section">
         <h2>{f.sections.research}</h2>
         <p className="cv-text">{f.research}</p>
+        <ul className="pub-list">
+          {PUBLICATIONS.map((p) => (
+            <li key={p.url}>
+              <a href={p.url} target="_blank" rel="noopener noreferrer">
+                {p.title}
+              </a>
+              <span className="pub-meta">
+                {p.authors}. <em>{p.venue}</em>.
+              </span>
+            </li>
+          ))}
+        </ul>
       </section>
+
+      <div className="cv-cols">
+        <section className="cv-section">
+          <h2>{f.sections.awards}</h2>
+          <ul className="cv-plain">
+            {f.awards.map((a) => (
+              <li key={a}>{a}</li>
+            ))}
+          </ul>
+        </section>
+        <section className="cv-section">
+          <h2>{f.sections.press}</h2>
+          <ul className="press-list">
+            {PRESS.map((p) => (
+              <li key={p.url}>
+                <a href={p.url} target="_blank" rel="noopener noreferrer">
+                  {p.title[lang]}
+                </a>
+                <span className="pub-meta">
+                  {p.outlet}, {p.date}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      </div>
 
       <div className="cv-cols">
         <section className="cv-section">

@@ -169,6 +169,7 @@ export const legal: Record<'aviso' | 'privacidad', LegalDoc> = {
         h: 'Responsabilidad',
         p: [
           'Los contenidos tienen carácter divulgativo y no sustituyen el asesoramiento profesional para un caso concreto. El titular no se hace responsable del uso que se haga de ellos ni del contenido de sitios externos enlazados.',
+          'Los análisis sobre mercados financieros son contenido educativo. No constituyen asesoramiento financiero ni recomendación de inversión personalizada, y no deben ser la base única de ninguna decisión de inversión. Invertir conlleva riesgo de pérdida del capital.',
         ],
       },
       {

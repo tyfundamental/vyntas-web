@@ -725,3 +725,114 @@ a {
   color: var(--cobalt);
   text-underline-offset: 3px;
 }
+
+/* Two lines of work: markets and content */
+.lines {
+  padding-bottom: 96px;
+  display: grid;
+  gap: 36px;
+}
+.lines-head {
+  display: grid;
+  gap: 14px;
+}
+.lines-head p {
+  max-width: 60ch;
+  color: #3a4552;
+}
+.lines-grid {
+  display: grid;
+  gap: 24px;
+}
+@media (min-width: 900px) {
+  .lines-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.line {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 28px;
+  border-radius: 16px;
+  min-width: 0;
+  scroll-margin-top: 24px;
+}
+.line-mercados {
+  background: var(--ink);
+  color: var(--white);
+}
+.line-contenidos {
+  background: var(--white);
+  border: 1px solid var(--line);
+}
+.line h3 {
+  font-size: clamp(1.5rem, 2.6vw, 1.9rem);
+  font-weight: 700;
+  font-variation-settings: 'wdth' 85;
+}
+.line > p {
+  max-width: 56ch;
+}
+.line-mercados > p {
+  color: rgba(255, 255, 255, 0.8);
+}
+.line-contenidos > p {
+  color: #3a4552;
+}
+.line ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 8px;
+}
+.line li {
+  position: relative;
+  padding-left: 22px;
+  font-family: var(--display);
+  font-weight: 500;
+  line-height: 1.4;
+}
+.line li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 2px solid var(--amber);
+}
+.line-contenidos li::before {
+  border-color: var(--cobalt);
+}
+.line-disclaimer {
+  margin-top: auto;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.18);
+  font-size: 0.88rem;
+  color: rgba(255, 255, 255, 0.62) !important;
+}
+.line-note {
+  margin-top: auto;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+  font-size: 0.95rem;
+}
+.line-cta {
+  align-self: flex-start;
+  font-family: var(--display);
+  font-weight: 600;
+  text-underline-offset: 4px;
+}
+.line-mercados .line-cta {
+  color: var(--amber);
+}
+.line-contenidos .line-cta {
+  color: var(--cobalt);
+}
+.line-mercados :focus-visible,
+.line-mercados.line :focus-visible {
+  outline-color: var(--amber);
+}

@@ -3,7 +3,7 @@ export type Lang = 'es' | 'en'
 export const EMAIL = 'info@vyntas.com'
 
 const es = {
-  nav: { work: 'Qué hago', audience: 'Para quién', next: 'Próximos análisis', about: 'Fundador', contact: 'Contacto' },
+  nav: { work: 'Qué hago', markets: 'Mercados', content: 'Contenidos', audience: 'Para quién', next: 'Próximos análisis', about: 'Fundador', contact: 'Contacto' },
   newsletter: {
     title: 'La newsletter de Vyntas',
     text: 'Un correo cuando sale un análisis nuevo: qué he probado, qué ha funcionado y qué no. Sin spam y con baja en un clic.',
@@ -71,11 +71,43 @@ const es = {
       },
     ],
   },
+  lines: {
+    title: 'Dos líneas de trabajo',
+    intro: 'La IA cambia dos terrenos que sigo de cerca: cómo se analizan los mercados y cómo se crea contenido. En ambos aplico el mismo método: probar, medir y contar lo que sale.',
+    markets: {
+      id: 'mercados',
+      name: 'IA y mercados bursátiles',
+      text: 'Uso modelos de IA para analizar mercados: lectura de resultados empresariales, sentimiento de las noticias y pruebas de estrategias con datos históricos. Explico el método y los datos, también cuando la conclusión es que algo no funciona.',
+      points: [
+        'Resultados y noticias resumidos con IA y contrastados con las cifras originales',
+        'Estrategias probadas con datos históricos, con comisiones y costes incluidos',
+        'Qué puede y qué no puede predecir un modelo',
+      ],
+      disclaimer:
+        'Contenido educativo y divulgativo. No es asesoramiento financiero ni una recomendación de inversión personalizada. Invertir conlleva riesgo de pérdida.',
+      cta: 'Recibir los análisis de mercado',
+    },
+    content: {
+      id: 'contenidos',
+      name: 'IA para crear contenidos',
+      text: 'Cómo producir textos, vídeos, imágenes y voz con IA sin perder calidad ni credibilidad: los flujos de trabajo que uso, cuánto tiempo ahorran y en qué punto hace falta una persona.',
+      points: [
+        'Guiones, artículos y newsletters escritos con IA y revisados a mano',
+        'Herramientas de vídeo, voz e imagen probadas y comparadas',
+        'Qué permiten YouTube y las redes con el contenido generado con IA',
+      ],
+      disclaimer: 'Para empresas: te ayudo a montar vuestro propio flujo de contenidos con IA.',
+      cta: 'Montar un flujo de contenidos',
+      subject: 'Flujo de contenidos con IA para mi empresa',
+    },
+  },
   next: {
     title: 'Próximos análisis',
     note: 'En preparación. Saldrán en vídeo, en artículo y en la newsletter.',
     items: [
       'Monto una IA privada para una empresa agrícola: coste real y qué hace',
+      'IA y bolsa: ¿lee un modelo de lenguaje unos resultados mejor que tú?',
+      'Produzco un vídeo entero con IA: qué hace sola y qué no',
       'Modelos locales frente a la nube: qué datos salen de tu empresa',
       'Cómo funciona un modelo de lenguaje, explicado por un físico',
       'IA en el aula: lo que funciona y lo que no después de un curso usándola',
@@ -103,7 +135,7 @@ const es = {
 }
 
 const en: typeof es = {
-  nav: { work: 'What I do', audience: 'Who it’s for', next: 'Coming up', about: 'Founder', contact: 'Contact' },
+  nav: { work: 'What I do', markets: 'Markets', content: 'Content', audience: 'Who it’s for', next: 'Coming up', about: 'Founder', contact: 'Contact' },
   newsletter: {
     title: 'The Vyntas newsletter',
     text: 'One email whenever a new analysis is out: what I tested, what worked and what didn’t. No spam, one-click unsubscribe.',
@@ -171,11 +203,43 @@ const en: typeof es = {
       },
     ],
   },
+  lines: {
+    title: 'Two lines of work',
+    intro: 'AI is changing two fields I follow closely: how markets are analysed and how content is made. In both I use the same method: test, measure and report what comes out.',
+    markets: {
+      id: 'mercados',
+      name: 'AI and stock markets',
+      text: 'I use AI models to analyse markets: reading company results, news sentiment and testing strategies on historical data. I explain the method and the data, including when the conclusion is that something doesn’t work.',
+      points: [
+        'Results and news summarised with AI and checked against the original figures',
+        'Strategies tested on historical data, with fees and costs included',
+        'What a model can and can’t predict',
+      ],
+      disclaimer:
+        'Educational content. It is not financial advice or a personalised investment recommendation. Investing carries a risk of loss.',
+      cta: 'Get the market analyses',
+    },
+    content: {
+      id: 'contenidos',
+      name: 'AI for content creation',
+      text: 'How to produce text, video, images and voice with AI without losing quality or credibility: the workflows I use, how much time they save and where a person is still needed.',
+      points: [
+        'Scripts, articles and newsletters written with AI and edited by hand',
+        'Video, voice and image tools tested and compared',
+        'What YouTube and social platforms allow for AI-generated content',
+      ],
+      disclaimer: 'For companies: I help you set up your own AI content workflow.',
+      cta: 'Set up a content workflow',
+      subject: 'AI content workflow for my company',
+    },
+  },
   next: {
     title: 'Coming up',
     note: 'In progress. Each one comes out as a video, an article and in the newsletter.',
     items: [
       'I build a private AI for a farming company: real cost and what it does',
+      'AI and the stock market: can a language model read earnings better than you?',
+      'I make a whole video with AI: what it does alone and what it doesn’t',
       'Local models versus the cloud: what data leaves your company',
       'How a language model works, explained by a physicist',
       'AI in the classroom: what works and what doesn’t after a year of using it',

@@ -484,3 +484,244 @@ a {
   font-size: 0.9rem;
   color: var(--steel);
 }
+
+/* About teaser link */
+.about-more {
+  font-family: var(--display);
+  font-weight: 600;
+  color: var(--cobalt);
+  text-underline-offset: 4px;
+  justify-self: start;
+}
+
+/* Newsletter */
+.newsletter {
+  background: var(--white);
+  border-top: 1px solid var(--line);
+  padding-block: 80px;
+}
+.newsletter-inner {
+  display: grid;
+  gap: 32px;
+}
+@media (min-width: 900px) {
+  .newsletter-inner {
+    grid-template-columns: 1fr 1.2fr;
+    gap: 56px;
+    align-items: start;
+  }
+}
+.nl-text {
+  margin-top: 14px;
+  max-width: 44ch;
+  color: #3a4552;
+}
+.nl-form {
+  display: grid;
+  gap: 10px;
+  min-width: 0;
+}
+.nl-form > label {
+  font-family: var(--display);
+  font-weight: 600;
+}
+.nl-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.nl-row input {
+  flex: 1 1 240px;
+  min-width: 0;
+  font: inherit;
+  font-family: var(--display);
+  padding: 12px 14px;
+  border: 1.5px solid var(--line);
+  border-radius: 10px;
+  background: var(--paper);
+  color: var(--ink);
+}
+.nl-row input:focus {
+  border-color: var(--cobalt);
+  outline: none;
+}
+.nl-row input[aria-invalid='true'] {
+  border-color: #b3261e;
+}
+.nl-row .btn {
+  cursor: pointer;
+}
+.nl-row .btn:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+.nl-consent {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  font-size: 0.95rem;
+  color: #3a4552;
+}
+.nl-consent input {
+  margin-top: 0.35em;
+  width: 18px;
+  height: 18px;
+  accent-color: var(--cobalt);
+  flex: none;
+}
+.nl-status {
+  min-height: 1.6em;
+  font-family: var(--display);
+  font-size: 0.95rem;
+}
+.nl-status.ok {
+  color: #1d6b3a;
+}
+.nl-status.error {
+  color: #b3261e;
+}
+
+/* Subpages */
+.back {
+  display: inline-block;
+  font-family: var(--display);
+  font-size: 0.95rem;
+  color: var(--steel);
+  text-underline-offset: 4px;
+  margin-top: 16px;
+}
+.founder {
+  padding-bottom: 104px;
+}
+.founder-head {
+  display: grid;
+  gap: 18px;
+  justify-items: start;
+  padding-block: 40px 64px;
+  border-bottom: 1.5px solid var(--ink);
+}
+.founder-role {
+  font-family: var(--display);
+  font-weight: 600;
+  color: var(--cobalt);
+}
+.founder h1 {
+  font-size: clamp(2.4rem, 5.6vw, 4.2rem);
+  font-weight: 800;
+  font-variation-settings: 'wdth' 80;
+  letter-spacing: -0.035em;
+}
+.founder-summary {
+  max-width: 60ch;
+  font-size: 1.15rem;
+  color: #3a4552;
+}
+.cv-section {
+  padding-top: 48px;
+  min-width: 0;
+}
+.cv-section h2 {
+  font-size: clamp(1.5rem, 2.6vw, 1.9rem);
+  margin-bottom: 20px;
+}
+.cv-sub {
+  margin-top: 36px;
+}
+.cv-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--line);
+}
+.cv-list li {
+  display: grid;
+  gap: 4px;
+  padding-block: 20px;
+  border-bottom: 1px solid var(--line);
+}
+@media (min-width: 760px) {
+  .cv-list li {
+    grid-template-columns: 200px 1fr;
+    gap: 32px;
+  }
+}
+.cv-when {
+  font-family: var(--display);
+  color: var(--steel);
+  font-variant-numeric: tabular-nums;
+}
+.cv-body h4 {
+  margin: 0;
+  font-family: var(--display);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.cv-where {
+  color: var(--ink);
+}
+.cv-detail,
+.cv-text {
+  color: #3a4552;
+  max-width: 64ch;
+}
+.cv-detail {
+  margin-top: 6px;
+}
+.cv-cols {
+  display: grid;
+}
+@media (min-width: 860px) {
+  .cv-cols {
+    grid-template-columns: 1fr 1fr;
+    gap: 56px;
+  }
+}
+.cv-plain {
+  margin: 0;
+  padding-left: 1.1em;
+  display: grid;
+  gap: 6px;
+  color: #3a4552;
+}
+
+.legal {
+  max-width: 760px;
+  padding-bottom: 104px;
+}
+.legal h1 {
+  margin-top: 32px;
+  font-size: clamp(2rem, 4.4vw, 3rem);
+  font-weight: 800;
+  font-variation-settings: 'wdth' 82;
+}
+.legal-updated,
+.legal-note {
+  margin-top: 10px;
+  color: var(--steel);
+  font-size: 0.95rem;
+}
+.legal section {
+  margin-top: 32px;
+  display: grid;
+  gap: 10px;
+}
+.legal h2 {
+  font-size: 1.3rem;
+}
+
+.foot-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+.foot-links a {
+  color: var(--steel);
+  text-underline-offset: 3px;
+}
+.top nav a[aria-current='page'] {
+  color: var(--ink);
+}
+.nl-consent a {
+  color: var(--cobalt);
+  text-underline-offset: 3px;
+}

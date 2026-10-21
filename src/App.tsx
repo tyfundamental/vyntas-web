@@ -1,6 +1,17 @@
 import { useEffect, useState } from 'react'
 import { content, mailto, EMAIL, type Lang } from './content'
 import Trace from './Trace'
+import Newsletter from './Newsletter'
+import Founder from './Founder'
+import Legal from './Legal'
+
+type Page = 'home' | 'fundador' | 'aviso-legal' | 'privacidad'
+const PAGES: Page[] = ['fundador', 'aviso-legal', 'privacidad']
+
+function pageFromHash(): Page {
+  const h = window.location.hash.slice(1) as Page
+  return PAGES.includes(h) ? h : 'home'
+}
 
 function initialLang(): Lang {
   try {
@@ -15,6 +26,22 @@ function initialLang(): Lang {
 export default function App() {
   const [lang, setLang] = useState<Lang>(initialLang)
   const t = content[lang]
+  const [page, setPage] = useState<Page>(pageFromHash)
+
+  useEffect(() => {
+    const onHash = () => {
+      const next = pageFromHash()
+      setPage(next)
+      const id = window.location.hash.slice(1)
+      requestAnimationFrame(() => {
+        const el = next === 'home' && id ? document.getElementById(id) : null
+        if (el) el.scrollIntoView()
+        else window.scrollTo(0, 0)
+      })
+    }
+    window.addEventListener('hashchange', onHash)
+    return () => window.removeEventListener('hashchange', onHash)
+  }, [])
 
   useEffect(() => {
     document.documentElement.lang = lang
@@ -41,7 +68,9 @@ export default function App() {
           <a href="#trabajo">{t.nav.work}</a>
           <a href="#para-quien">{t.nav.audience}</a>
           <a href="#proximos">{t.nav.next}</a>
-          <a href="#quien">{t.nav.about}</a>
+          <a href="#fundador" aria-current={page === 'fundador' ? 'page' : undefined}>
+            {t.nav.about}
+          </a>
         </nav>
         <button className="lang" onClick={() => setLang(lang === 'es' ? 'en' : 'es')}>
           {t.langSwitch}
@@ -49,12 +78,17 @@ export default function App() {
       </header>
 
       <main id="main">
+        {page === 'fundador' && <Founder lang={lang} />}
+        {page === 'aviso-legal' && <Legal doc="aviso" lang={lang} />}
+        {page === 'privacidad' && <Legal doc="privacidad" lang={lang} />}
+        {page === 'home' && (
+          <>
         <section className="hero wrap" id="top">
           <div className="hero-text">
             <h1>{t.hero.title}</h1>
             <p className="lead">{t.hero.lead}</p>
             <div className="actions">
-              <a className="btn btn-primary" href={mailto(t.contact.newsletterSubject)}>
+              <a className="btn btn-primary" href="#newsletter">
                 {t.hero.primary}
               </a>
               <a className="btn btn-quiet" href={mailto(t.contact.projectSubject)}>
@@ -81,11 +115,11 @@ export default function App() {
           <div className="wrap">
             <h2>{t.audience.title}</h2>
             <div className="groups">
-              {t.audience.groups.map((g) => (
+              {t.audience.groups.map((g, i) => (
                 <article key={g.name}>
                   <h3>{g.name}</h3>
                   <p>{g.text}</p>
-                  <a href={mailto(g.subject)}>{g.cta}</a>
+                  <a href={i === 2 ? '#newsletter' : mailto(g.subject)}>{g.cta}</a>
                 </article>
               ))}
             </div>
@@ -110,8 +144,13 @@ export default function App() {
             {t.about.paragraphs.map((p) => (
               <p key={p}>{p}</p>
             ))}
+            <a className="about-more" href="#fundador">
+              {t.about.more}
+            </a>
           </div>
         </section>
+
+        <Newsletter lang={lang} />
 
         <section className="contact" id="contacto">
           <div className="wrap contact-inner">
@@ -123,21 +162,25 @@ export default function App() {
               </a>
             </div>
             <div className="actions">
-              <a className="btn btn-amber" href={mailto(t.contact.newsletterSubject)}>
-                {t.contact.newsletter}
-              </a>
-              <a className="btn btn-outline" href={mailto(t.contact.projectSubject)}>
+              <a className="btn btn-amber" href={mailto(t.contact.projectSubject)}>
                 {t.contact.project}
               </a>
             </div>
           </div>
         </section>
+          </>
+        )}
       </main>
 
       <footer className="wrap foot">
         <span>
           © {new Date().getFullYear()} {t.footer.rights}
         </span>
+        <nav className="foot-links" aria-label={lang === 'es' ? 'Legal' : 'Legal'}>
+          <a href="#fundador">{t.footer.founder}</a>
+          <a href="#aviso-legal">{t.footer.legal}</a>
+          <a href="#privacidad">{t.footer.privacy}</a>
+        </nav>
         <span>{t.footer.youtube}</span>
       </footer>
     </>

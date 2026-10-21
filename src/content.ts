@@ -3,7 +3,21 @@ export type Lang = 'es' | 'en'
 export const EMAIL = 'info@vyntas.com'
 
 const es = {
-  nav: { work: 'Qué hago', audience: 'Para quién', next: 'Próximos análisis', about: 'Quién soy', contact: 'Contacto' },
+  nav: { work: 'Qué hago', audience: 'Para quién', next: 'Próximos análisis', about: 'Fundador', contact: 'Contacto' },
+  newsletter: {
+    title: 'La newsletter de Vyntas',
+    text: 'Un correo cuando sale un análisis nuevo: qué he probado, qué ha funcionado y qué no. Sin spam y con baja en un clic.',
+    label: 'Tu correo electrónico',
+    placeholder: 'nombre@empresa.com',
+    consent: 'Acepto recibir la newsletter y he leído la',
+    privacy: 'política de privacidad',
+    submit: 'Suscribirme',
+    sending: 'Enviando…',
+    ok: 'Suscripción recibida. Revisa tu correo para confirmarla.',
+    invalid: 'Escribe un correo válido, por ejemplo nombre@empresa.com.',
+    needConsent: 'Marca la casilla de consentimiento para poder suscribirte.',
+    error: 'No se ha podido completar la suscripción. Inténtalo de nuevo o escribe a info@vyntas.com.',
+  },
   hero: {
     title: 'La IA, probada antes de contarla.',
     lead:
@@ -68,7 +82,8 @@ const es = {
     ],
   },
   about: {
-    title: 'Quién soy',
+    title: 'Quién está detrás',
+    more: 'Ver trayectoria completa',
     paragraphs: [
       'Soy Daniel Malagón. Físico, doctor en Ingeniería Electrónica y profesor de informática en un instituto de Huelva.',
       'Antes de dar clase investigué en el IMSE-CNM (CSIC), en el CERN y en la Universidad de Oporto, sobre fiabilidad de circuitos e implantes médicos. Esa costumbre de medir antes de opinar es la que aplico ahora a la IA.',
@@ -77,18 +92,32 @@ const es = {
   },
   contact: {
     title: 'Escríbeme',
-    text: 'Para recibir los análisis, proponer un tema o contarme un proyecto, manda un correo. Contesto yo.',
+    text: 'Para proponer un tema, pedir formación o contarme un proyecto de IA en tu empresa, manda un correo. Contesto personalmente.',
     newsletter: 'Recibir los análisis por correo',
     newsletterSubject: 'Quiero recibir los análisis',
     project: 'Hablar de un proyecto',
     projectSubject: 'Proyecto de IA',
   },
-  footer: { youtube: 'Canal de YouTube en preparación', rights: 'Vyntas' },
+  footer: { youtube: 'Canal de YouTube en preparación', rights: 'Vyntas', legal: 'Aviso legal', privacy: 'Privacidad', founder: 'Fundador' },
   langSwitch: 'English',
 }
 
 const en: typeof es = {
-  nav: { work: 'What I do', audience: 'Who it’s for', next: 'Coming up', about: 'About', contact: 'Contact' },
+  nav: { work: 'What I do', audience: 'Who it’s for', next: 'Coming up', about: 'Founder', contact: 'Contact' },
+  newsletter: {
+    title: 'The Vyntas newsletter',
+    text: 'One email whenever a new analysis is out: what I tested, what worked and what didn’t. No spam, one-click unsubscribe.',
+    label: 'Your email',
+    placeholder: 'name@company.com',
+    consent: 'I agree to receive the newsletter and have read the',
+    privacy: 'privacy policy',
+    submit: 'Subscribe',
+    sending: 'Sending…',
+    ok: 'Subscription received. Check your inbox to confirm it.',
+    invalid: 'Enter a valid email, for example name@company.com.',
+    needConsent: 'Tick the consent box to subscribe.',
+    error: 'The subscription couldn’t be completed. Try again or write to info@vyntas.com.',
+  },
   hero: {
     title: 'AI, tested before it’s explained.',
     lead:
@@ -153,7 +182,8 @@ const en: typeof es = {
     ],
   },
   about: {
-    title: 'About me',
+    title: 'Who’s behind it',
+    more: 'See full background',
     paragraphs: [
       'I’m Daniel Malagón. Physicist, PhD in Electronic Engineering, and computer science teacher at a secondary school in Huelva, Spain.',
       'Before teaching I did research at IMSE-CNM (CSIC), CERN and the University of Porto, on circuit reliability and medical implants. The habit of measuring before giving an opinion is what I now apply to AI.',
@@ -162,13 +192,13 @@ const en: typeof es = {
   },
   contact: {
     title: 'Write to me',
-    text: 'To get the analyses, suggest a topic or tell me about a project, send an email. I answer it myself.',
+    text: 'To suggest a topic, request training or tell me about an AI project at your company, send an email. I reply personally.',
     newsletter: 'Get the analyses by email',
     newsletterSubject: 'Send me the analyses',
     project: 'Talk about a project',
     projectSubject: 'AI project',
   },
-  footer: { youtube: 'YouTube channel in progress', rights: 'Vyntas' },
+  footer: { youtube: 'YouTube channel in progress', rights: 'Vyntas', legal: 'Legal notice', privacy: 'Privacy', founder: 'Founder' },
   langSwitch: 'Español',
 }
 

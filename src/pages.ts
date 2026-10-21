@@ -1,11 +1,10 @@
 import type { Lang } from './content'
 
-// Datos del titular. NIF y domicilio son obligatorios en el aviso legal (LSSI):
-// rellenarlos antes de publicar en producción.
+// Datos del titular que aparecen en el aviso legal y la política de privacidad.
 export const OWNER = {
   name: 'Daniel Malagón Periánez',
-  nif: '', // TODO: NIF del titular
-  address: '', // TODO: domicilio a efectos de notificaciones
+  nif: '', // Se deja vacío a petición del titular
+  address: '', // Se deja vacío a petición del titular
   email: 'info@vyntas.com',
   domain: 'vyntas.com',
 }

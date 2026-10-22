@@ -24,6 +24,15 @@ function initialLang(): Lang {
   return navigator.language?.toLowerCase().startsWith('es') ? 'es' : 'en'
 }
 
+function Logo({ size = 28 }: { size?: number }) {
+  return (
+    <svg className="logo" width={size} height={size} viewBox="0 0 100 100" aria-hidden="true">
+      <line className="logo-bar" x1="18" y1="11" x2="82" y2="11" />
+      <path className="logo-y" d="M50 90 L50 56 L26 27 M50 56 L74 27" />
+    </svg>
+  )
+}
+
 export default function App() {
   const [lang, setLang] = useState<Lang>(initialLang)
   const t = content[lang]
@@ -60,9 +69,7 @@ export default function App() {
       </a>
       <header className="top wrap">
         <a className="brand" href="#top" aria-label="Vyntas">
-          <svg viewBox="0 0 32 32" aria-hidden="true">
-            <path d="M5 8 L16 23 L27 8" />
-          </svg>
+          <Logo />
           vyntas
         </a>
         <nav aria-label={lang === 'es' ? 'Principal' : 'Main'}>
@@ -186,6 +193,13 @@ export default function App() {
           </>
         )}
       </main>
+
+      <aside className="wrap meaning" aria-label={t.meaning.label}>
+        <Logo size={36} />
+        <p>
+          <strong>{t.meaning.label}.</strong> {t.meaning.text}
+        </p>
+      </aside>
 
       <footer className="wrap foot">
         <span>

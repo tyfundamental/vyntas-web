@@ -131,6 +131,10 @@ const es = {
     projectSubject: 'Proyecto de IA',
   },
   footer: { youtube: 'Canal de YouTube en preparación', rights: 'Vyntas', legal: 'Aviso legal', privacy: 'Privacidad', founder: 'Fundador' },
+  meaning: {
+    label: 'Por qué Vyntas',
+    text: 'De vinculum, vínculo, y -tas, cualidad: la cualidad de unir la ciencia y la empresa. En el símbolo, la barra sobre la y es el vínculo de las matemáticas y forma ȳ, la media de lo que se mide. La Y es la letra de Pitágoras, el camino que obliga a elegir.',
+  },
   langSwitch: 'English',
 }
 
@@ -263,6 +267,10 @@ const en: typeof es = {
     projectSubject: 'AI project',
   },
   footer: { youtube: 'YouTube channel in progress', rights: 'Vyntas', legal: 'Legal notice', privacy: 'Privacy', founder: 'Founder' },
+  meaning: {
+    label: 'Why Vyntas',
+    text: 'From vinculum, bond, and -tas, quality: the quality of joining science and business. In the symbol, the bar over the y is the mathematical vinculum and makes ȳ, the mean of what is measured. The Y is the letter of Pythagoras, the path that forces a choice.',
+  },
   langSwitch: 'Español',
 }
 

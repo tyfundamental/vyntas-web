@@ -1,0 +1,17 @@
+[
+  {"id": 1, "tipo": "dato", "pregunta": "¿Cuál fue el beneficio neto reportado de Iberdrola en los nueve primeros meses de 2026 y cuánto creció?", "respuesta": "5.816,1 millones de euros, un 9,6 % más."},
+  {"id": 2, "tipo": "dato", "pregunta": "¿Cuál fue el beneficio neto ajustado y cuánto creció?", "respuesta": "5.140,5 millones de euros, un 8,8 % más."},
+  {"id": 3, "tipo": "dato", "pregunta": "¿Cuánto fue el EBITDA ajustado y cuánto creció?", "respuesta": "11.890,6 millones de euros, un 7,5 % más."},
+  {"id": 4, "tipo": "dato", "pregunta": "¿Cuánto invirtió Iberdrola en el periodo?", "respuesta": "10.087,2 millones de euros, un 13 % más."},
+  {"id": 5, "tipo": "dato", "pregunta": "¿Cuál es el dividendo a cuenta de 2026 por acción?", "respuesta": "0,275 euros brutos por acción, un 8,7 % más que el año anterior."},
+  {"id": 6, "tipo": "dato", "pregunta": "¿Cuál es la deuda financiera neta ajustada?", "respuesta": "54.561 millones de euros."},
+  {"id": 7, "tipo": "comprension", "pregunta": "¿Por qué el beneficio neto reportado es mayor que el ajustado?", "respuesta": "Porque el reportado incluye la plusvalía neta por la venta del negocio de México (953 M€), que el ajustado excluye. El ajustado, además, suma las capital allowances de Reino Unido (277,6 M€)."},
+  {"id": 8, "tipo": "comprension", "pregunta": "¿Qué negocio creció y cuál retrocedió en EBITDA ajustado?", "respuesta": "Redes creció un 14,9 % (6.430,2 M€); Generación y Clientes cayó un 1,5 % (5.359,3 M€)."},
+  {"id": 9, "tipo": "comprension", "pregunta": "¿Por qué bajó el EBITDA de Generación y Clientes?", "respuesta": "Porque vendió más electricidad a precios fijados en 2025, lo que subió los costes de aprovisionamiento; lo compensaron en parte el bombeo y un 3 % más de producción."},
+  {"id": 10, "tipo": "comprension", "pregunta": "El EBITDA ajustado sube un 7,5 %, pero el reportado baja un 0,7 %. ¿Por qué?", "respuesta": "Porque las cifras reportadas de 2025 incluían efectos extraordinarios: el reconocimiento de costes pasados en EE. UU. (530 M€) y la venta de contadores inteligentes en Reino Unido (382 M€)."},
+  {"id": 11, "tipo": "comprension", "pregunta": "¿Por qué empeoró el resultado financiero?", "respuesta": "Pasó de -1.163 a -1.687 M€ sobre todo por derivados y otros: en 2025 hubo un ingreso extraordinario de 285 M€ por la liquidación de derivados de East Anglia 3, y las coberturas en divisa fueron positivas en 2025 y negativas en 2026. La deuda empeoró 85 M€ por un saldo medio mayor."},
+  {"id": 12, "tipo": "comprension", "pregunta": "¿Cuánto pagará Iberdrola por Caruna y qué parte compra?", "respuesta": "El 80 %, con una inversión de 2.000 M€ (1.000 M€ aplazados un año). La operación valora la empresa entera en unos 5.000 M€."},
+  {"id": 13, "tipo": "trampa", "pregunta": "¿Cuántos empleados tenía Iberdrola a cierre de septiembre de 2026?", "respuesta": "El texto no lo dice."},
+  {"id": 14, "tipo": "trampa", "pregunta": "¿Cuál fue el beneficio neto solo del tercer trimestre (julio a septiembre)?", "respuesta": "El texto no lo dice: solo da cifras acumuladas de nueve meses."},
+  {"id": 15, "tipo": "trampa", "pregunta": "¿Qué precio objetivo para la acción da el informe?", "respuesta": "El texto no da ningún precio objetivo ni recomendación."}
+]

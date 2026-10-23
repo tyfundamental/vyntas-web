@@ -1,0 +1,122 @@
+[
+ {
+  "id": 1,
+  "respuesta_modelo": "El beneficio neto reportado de Iberdrola para los nueve primeros meses de 2026 fue de **5.816,1 millones de euros**, lo que representa un crecimiento del **9,6%** respecto al mismo periodo del año anterior.",
+  "segundos": 184.2,
+  "tokens_prompt": 5280,
+  "tokens_salida": 56,
+  "tok_s_salida": 3.25
+ },
+ {
+  "id": 2,
+  "respuesta_modelo": "El beneficio neto ajustado de Iberdrola para los nueve meses de 2026 fue de **5.140,5 millones de euros**, lo que representa un crecimiento del **8,8%** en comparación con el mismo periodo de 2025.",
+  "segundos": 54.8,
+  "tokens_prompt": 5264,
+  "tokens_salida": 60,
+  "tok_s_salida": 3.14
+ },
+ {
+  "id": 3,
+  "respuesta_modelo": "El **EBITDA ajustado** de Iberdrola para los nueve meses de 2026 fue de **11.890,6 millones de euros**.\n\nEste resultado representó un crecimiento del **+7,5%** en comparación con el mismo periodo del año anterior (2025).",
+  "segundos": 57.9,
+  "tokens_prompt": 5266,
+  "tokens_salida": 67,
+  "tok_s_salida": 2.92
+ },
+ {
+  "id": 4,
+  "respuesta_modelo": "Iberdrola invirtió **10.087,2 millones de euros** durante los nueve meses del año 2026 (enero-septiembre).\n\nEste aumento del 13% respecto al mismo periodo del año anterior se distribuyó principalmente de la siguiente manera:\n*   **Redes:** 6.276,5 millones de euros (con más del 90% en Reino Unido, EE.UU. y Brasil).\n*   **Generación y Suministro:** 3.600,7 millones de euros (de los cuales 3.357 millones se destinaron a renovables).",
+  "segundos": 80.6,
+  "tokens_prompt": 5265,
+  "tokens_salida": 141,
+  "tok_s_salida": 3.0
+ },
+ {
+  "id": 5,
+  "respuesta_modelo": "El dividendo interino aprobado para 2026 es de **0,275 euros brutos por acción** (un aumento del 8,7% respecto al año anterior).",
+  "segundos": 46.7,
+  "tokens_prompt": 5267,
+  "tokens_salida": 41,
+  "tok_s_salida": 3.23
+ },
+ {
+  "id": 6,
+  "respuesta_modelo": "La deuda financiera neta ajustada de Iberdrola asciende a **54.561 millones de euros**.",
+  "segundos": 43.3,
+  "tokens_prompt": 5261,
+  "tokens_salida": 27,
+  "tok_s_salida": 3.18
+ },
+ {
+  "id": 7,
+  "respuesta_modelo": "El beneficio neto reportado (EUR 5.816,1 millones) es mayor que el ajustado (EUR 5.140,5 millones) principalmente por dos factores:\n\n1.  **Ingresos extraordinarios de la venta de México:** El resultado reportado incluye ganancias de capital de EUR 953 millones derivadas de la venta del negocio de México en 2026. Estos ingresos se excluyen en el beneficio ajustado para ofrecer una visión más operativa y sostenible.\n2.  **Ajustes contables específicos:** Aunque el informe menciona que el beneficio *ajustado* incluye los beneficios de las deducciones de capital (capital allowances) del Reino Unido, la diferencia neta se debe fundamentalmente a la inclusión en el resultado reportado de ganancias no recurrentes por la desinversión estratégica en México.",
+  "segundos": 98.1,
+  "tokens_prompt": 5266,
+  "tokens_salida": 181,
+  "tok_s_salida": 2.86
+ },
+ {
+  "id": 8,
+  "respuesta_modelo": "Según el informe de resultados de Iberdrola para los nueve meses de 2026:\n\n*   **Crecimiento:** El negocio de **Redes (Networks)** fue el que creció, con un aumento del **14,9%** en su EBITDA ajustado (hasta 6.430,2 millones €).\n*   **Retroceso:** El negocio de **Generación y Suministro (Generation and Supply)** fue el que retrocedió, con una disminución del **-1,5%** en su EBITDA ajustado (hasta 5.359,3 millones €), debido principalmente al aumento de los costes de adquisición por la demanda eléctrica superior a la esperada.",
+  "segundos": 90.3,
+  "tokens_prompt": 5267,
+  "tokens_salida": 155,
+  "tok_s_salida": 2.91
+ },
+ {
+  "id": 9,
+  "respuesta_modelo": "El EBITDA del negocio de **Generación y Suministro (Generation and Supply)** disminuyó un 1,5% principalmente debido a:\n\n*   **Aumento de los costes de compra:** Las ventas más altas impulsadas por una demanda superior a la esperada se produjeron a precios fijados en 2025, lo que incrementó significativamente los costes de adquisición.\n*   **Falta de compensación inmediata:** Aunque hubo un aumento del 3% en la producción y una mejor contribución de las instalaciones de bombeo, estos factores no fueron suficientes para contrarrestar el impacto negativo de los costes de compra más elevados.\n\nEl informe señala que las nuevas ventas se están cerrando a precios más altos, lo que reflejará mejoras en los resultados en los próximos periodos.",
+  "segundos": 90.8,
+  "tokens_prompt": 5266,
+  "tokens_salida": 172,
+  "tok_s_salida": 3.02
+ },
+ {
+  "id": 10,
+  "respuesta_modelo": "La diferencia se debe a la inclusión en los resultados **reportados** de dos efectos extraordinarios que redujeron el beneficio en 2025:\n\n1.  **Reconocimiento de costes pasivos en EE.UU.:** Un importe de **530 millones de euros**.\n2.  **Ganancia por la venta de la empresa de medidores inteligentes en el Reino Unido:** Un importe de **382 millones de euros**.\n\nEstos dos conceptos se excluyen del EBITDA ajustado, lo que hace que este último refleje un crecimiento del **+7,5 %**, mientras que el reportado muestra una ligera caída del **-0,7 %**.",
+  "segundos": 85.0,
+  "tokens_prompt": 5279,
+  "tokens_salida": 145,
+  "tok_s_salida": 2.96
+ },
+ {
+  "id": 11,
+  "respuesta_modelo": "El resultado financiero (Beneficio Neto) de Iberdrola mejoró un **9,6%** en los primeros nueve meses de 2026 hasta alcanzar los **5.816 millones de euros**, por lo que no empeoró.\n\nSin embargo, si te refieres al **Beneficio Neto Ajustado** (el indicador operativo clave), este creció un **8,8%** a los **5.140,5 millones de euros**.\n\nLos factores que influyeron en la evolución del resultado son:\n\n*   **Crecimiento positivo:** Impulsado principalmente por el negocio de Redes (+14,9% en EBITDA ajustado) debido a una mayor base de activos regulados, tarifas más altas (especialmente en EE. UU. y Brasil) y mejores condiciones de transmisión.\n*   **Presión en generación:** El negocio de Generación y Suministro tuvo un resultado negativo (-1,5%) debido al aumento de los costes de compra de electricidad por la demanda superior a la esperada, aunque esto se mitigó parcialmente con el incremento del 3% en la producción.\n*   **Efectos contables y transaccionales:** El informe destaca que el beneficio reportado incluye ganancias extraordinarias (como la venta de activos en México), mientras que el resultado ajustado excluye estas ganancias no recurrentes para ofrecer una visión más operativa.\n*   **Resultado financiero negativo:** Se registraron pérdidas netas financieras de -1.687 millones, lo que redujo ligeramente el beneficio final respecto al EBITDA, debido a peores resultados en derivados y otros instrumentos financieros comparado con el año anterior.\n\nEn resumen, el resultado se mantuvo sólido gracias al crecimiento de las redes y la gestión operativa, aunque se vieron afectados por costes de compra elevados en generación y pérdidas financieras.",
+  "segundos": 169.3,
+  "tokens_prompt": 5260,
+  "tokens_salida": 388,
+  "tok_s_salida": 2.87
+ },
+ {
+  "id": 12,
+  "respuesta_modelo": "Basado en el informe:\n\n*   **Qué parte compra:** Iberdrola adquiere una participación del **80%** de la compañía. Los fondos pensiones nórdicos (AMF y Elo) mantienen su participación actual del 20%.\n*   **Cuánto paga:** La transacción valora toda la empresa en aproximadamente **5.000 millones de euros**. Sin embargo, el desembolso inicial de Iberdrola será de **2.000 millones de euros**, con los restantes **1.000 millones** diferidos durante un año.",
+  "segundos": 77.6,
+  "tokens_prompt": 5268,
+  "tokens_salida": 125,
+  "tok_s_salida": 2.95
+ },
+ {
+  "id": 13,
+  "respuesta_modelo": "El informe proporcionado no incluye la cifra exacta del número de empleados de Iberdrola a finales de septiembre de 2026.\n\nSin embargo, sí menciona que **más del 75% de las inversiones** realizadas durante el primer nueve meses de 2026 se destinaron al Reino Unido, Estados Unidos y Brasil, y destaca un crecimiento significativo en la base de activos regulados (un aumento del 14,0%), lo que sugiere una expansión operativa. Para obtener el dato preciso de personal, sería necesario consultar la sección específica de \"Sostenibilidad\" o \"Información corporativa\" del informe completo, ya que no se detalla en los resúmenes financieros presentados aquí.",
+  "segundos": 88.6,
+  "tokens_prompt": 5271,
+  "tokens_salida": 151,
+  "tok_s_salida": 2.78
+ },
+ {
+  "id": 14,
+  "respuesta_modelo": "El informe proporcionado cubre los primeros nueve meses de 2026 y no desglosa los resultados trimestrales individuales, por lo que **no se puede determinar el beneficio neto exclusivo del tercer trimestre** basándose únicamente en este documento.\n\nSin embargo, sí se conocen las cifras acumuladas:\n*   Beneficio neto reportado (9 meses): **5.816,1 millones de euros**.\n*   Beneficio neto ajustado (9 meses): **5.140,5 millones de euros**.",
+  "segundos": 72.8,
+  "tokens_prompt": 5267,
+  "tokens_salida": 115,
+  "tok_s_salida": 3.1
+ },
+ {
+  "id": 15,
+  "respuesta_modelo": "El informe **no menciona un precio objetivo** para la acción de Iberdrola.\n\nSe detalla únicamente que la compañía ha aprobado una **dividendo interino** de **0,275 € por acción**, lo cual representa un aumento del 8,7% respecto al año anterior.",
+  "segundos": 57.2,
+  "tokens_prompt": 5261,
+  "tokens_salida": 65,
+  "tok_s_salida": 2.94
+ }
+]

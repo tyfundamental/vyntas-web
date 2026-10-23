@@ -1,0 +1,31 @@
+ChatGPT, versión gratuita sin iniciar sesión (chatgpt.com), 23 de octubre de 2026. Mismo texto de entrada (SHA-256 b9995be2a9c7daff3285c3d9ad73df727c5937b425bcaa84f5c88ab0905b2386), las 15 preguntas en un solo mensaje. La interfaz no indica qué modelo respondió.
+
+1. Beneficio neto reportado: 5.816,1 millones de euros, un crecimiento del 9,6 %.
+
+2. Beneficio neto ajustado: 5.140,5 millones de euros, un crecimiento del 8,8 % respecto al mismo periodo de 2025.
+
+3. EBITDA ajustado: 11.890,6 millones de euros, un incremento del 7,5 %.
+
+4. Inversiones: 10.087,2 millones de euros durante los nueve primeros meses de 2026, un 13 % más que en el mismo periodo del año anterior.
+
+5. Dividendo a cuenta de 2026: 0,275 euros brutos por acción, un 8,7 % más que el dividendo a cuenta del año anterior.
+
+6. Deuda financiera neta ajustada: 54.561 millones de euros.
+
+7. Motivo de la diferencia entre el beneficio reportado y el ajustado: el beneficio reportado incluye 953 millones de euros en plusvalías netas por la desinversión en México. El ajustado excluye esas plusvalías y añade el efecto positivo de las deducciones fiscales en Reino Unido, entre otros ajustes.
+
+8. Negocios por evolución del EBITDA ajustado: Redes creció un 14,9 %, hasta 6.430,2 millones de euros. Generación y Clientes retrocedió un 1,5 %, hasta 5.359,3 millones.
+
+9. Motivo de la caída de Generación y Clientes: el aumento de las ventas de electricidad a precios fijados en 2025 elevó los costes de aprovisionamiento. El efecto se compensó parcialmente con la mayor aportación del bombeo y el incremento del 3 % en la producción.
+
+10. Por qué sube el EBITDA ajustado, pero baja el reportado: porque el dato reportado de 2025 incluía efectos extraordinarios que distorsionan la comparación, como el reconocimiento de costes pasados en Estados Unidos (530 millones de euros) y la plusvalía por la venta del negocio de contadores inteligentes en Reino Unido (382 millones). Al excluir estos efectos, el EBITDA ajustado crece un 7,5 %.
+
+11. Motivo del empeoramiento del resultado financiero: empeoró en 524 millones de euros, hasta los −1.687 millones. Influyeron los menores ingresos por derivados y otros conceptos, debido a ingresos extraordinarios registrados en 2025 y a la evolución desfavorable de las coberturas de divisas. También aumentaron las pérdidas asociadas a la deuda por su mayor saldo medio.
+
+12. Compra de Caruna: Iberdrola invertirá 2.000 millones de euros por el 80 % del capital de la compañía finlandesa. La operación valora el 100 % de Caruna en aproximadamente 5.000 millones de euros.
+
+13. Número de empleados a septiembre de 2026: el dato no aparece en el extracto facilitado, por lo que no puedo confirmarlo.
+
+14. Beneficio neto del tercer trimestre (julio-septiembre): no se especifica en el extracto. Los 5.816,1 millones de euros corresponden al acumulado de enero a septiembre, no solo al tercer trimestre.
+
+15. Precio objetivo de la acción: el extracto no proporciona ningún precio objetivo. Para responder sería necesario consultar la documentación o el análisis bursátil correspondiente.

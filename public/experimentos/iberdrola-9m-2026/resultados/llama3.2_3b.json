@@ -1,0 +1,122 @@
+[
+ {
+  "id": 1,
+  "respuesta_modelo": "El beneficio neto reportado de Iberdrola en los nueve primeros meses de 2026 fue de EUR 5.816.1 millones. Este valor representa un crecimiento del 9.6% en comparación con el mismo período del año anterior.",
+  "segundos": 152.1,
+  "tokens_prompt": 4763,
+  "tokens_salida": 59,
+  "tok_s_salida": 2.41
+ },
+ {
+  "id": 2,
+  "respuesta_modelo": "El beneficio neto ajustado de Iberdrola en el período de 9 meses de 2026 fue de EUR 5,140.5 millones, lo que representa un crecimiento del 8.8% en comparación con el mismo período del año anterior.",
+  "segundos": 26.0,
+  "tokens_prompt": 4746,
+  "tokens_salida": 59,
+  "tok_s_salida": 2.47
+ },
+ {
+  "id": 3,
+  "respuesta_modelo": "Según el informe de Iberdrola, el EBITDA ajustado fue de EUR 11.890.6 millones y creció un 7.5% en comparación con el mismo período del año anterior.",
+  "segundos": 23.3,
+  "tokens_prompt": 4746,
+  "tokens_salida": 49,
+  "tok_s_salida": 2.4
+ },
+ {
+  "id": 4,
+  "respuesta_modelo": "Según el informe de resultados de Iberdrola, el grupo invirtió un total de EUR 10.087.2 millones en el período de septiembre 2026, lo que representa un aumento del 13% en comparación con el mismo período del año anterior.\n\nDe este total, EUR 6.276.5 millones se invirtieron en la empresa Networks, lo que representa un aumento del 31% en comparación con el mismo período del año anterior.\n\nEn cuanto a la empresa Generation and Supply, se invirtieron EUR 3.600.7 millones, de los cuales EUR 3.357 millones se invirtieron en renovables.\n\nEs importante destacar que la mayoría de estas inversiones se concentraron en el Reino Unido, Estados Unidos y Brasil, lo que refleja la estrategia de expansión y diversificación de Iberdrola en estos mercados.",
+  "segundos": 85.4,
+  "tokens_prompt": 4744,
+  "tokens_salida": 193,
+  "tok_s_salida": 2.33
+ },
+ {
+  "id": 5,
+  "respuesta_modelo": "Según el informe de Iberdrola, el dividendo a cuenta de 2026 por acción es de EUR 0,275.",
+  "segundos": 16.2,
+  "tokens_prompt": 4744,
+  "tokens_salida": 32,
+  "tok_s_salida": 2.32
+ },
+ {
+  "id": 6,
+  "respuesta_modelo": "Según el informe de Iberdrola, la deuda financiera neta ajustada es de EUR 54,561 millones.",
+  "segundos": 15.1,
+  "tokens_prompt": 4742,
+  "tokens_salida": 31,
+  "tok_s_salida": 2.42
+ },
+ {
+  "id": 7,
+  "respuesta_modelo": "El beneficio neto reportado es mayor que el ajustado debido a la inclusión de una capitalización de costos en el Reino Unido (EUR 277,6 millones) en el cálculo del beneficio neto ajustado, pero no en el beneficio neto reportado.\n\nEn el beneficio neto reportado, el beneficio neto se calcula sin considerar la capitalización de costos, por lo que se incluye el beneficio neto ajustado sin la capitalización de costos. Por otro lado, en el beneficio neto ajustado, se incluye la capitalización de costos en el cálculo del beneficio neto, lo que aumenta el beneficio neto ajustado.\n\nEn este caso, la capitalización de costos en el Reino Unido es de EUR 277,6 millones, lo que aumenta el beneficio neto ajustado en ese monto. Sin embargo, este beneficio no se incluye en el beneficio neto reportado, lo que hace que el beneficio neto reportado sea menor que el ajustado.\n\nEn resumen, la diferencia entre el beneficio neto reportado y el ajustado se debe a la inclusión o exclusión de la capitalización de costos en el cálculo de los dos beneficios.",
+  "segundos": 124.9,
+  "tokens_prompt": 4745,
+  "tokens_salida": 280,
+  "tok_s_salida": 2.3
+ },
+ {
+  "id": 8,
+  "respuesta_modelo": "Según el informe de Iberdrola, el negocio que creció en EBITDA ajustado fue el de \"Redes\" ( Networks ), con un aumento del 14.9% a EUR 6,430.2 millones.\n\nPor otro lado, el negocio que retrocedió en EBITDA ajustado fue el de \"Generación y Suministro\" ( Power and Customers ), con una caída del -1.5% a EUR 5,359.3 millones.",
+  "segundos": 47.3,
+  "tokens_prompt": 4746,
+  "tokens_salida": 105,
+  "tok_s_salida": 2.37
+ },
+ {
+  "id": 9,
+  "respuesta_modelo": "Según el informe, el EBITDA de Generación y Clientes (G&C) bajó en el período de septiembre 2026 en comparación con el mismo período del año anterior debido a varias razones:\n\n1. **Mayor demanda de electricidad**: La demanda de electricidad aumentó durante el período, lo que llevó a un aumento en los costos de procuramiento.\n2. **Precios fijos en 2025**: Las ventas de electricidad se produjeron a precios fijos en 2025, lo que significó que los costos de procuramiento aumentaron sin que se reflejara en los ingresos.\n3. **Contribución de las instalaciones de almacenamiento**: Aunque la generación aumentó en un 3% en comparación con el mismo período del año anterior, la contribución de las instalaciones de almacenamiento (pumped storage) fue limitada, lo que redujo la eficiencia de la generación.\n\nEstas razones combinadas llevaron a una disminución del EBITDA de G&C en el período de septiembre 2026 en comparación con el mismo período del año anterior.",
+  "segundos": 108.0,
+  "tokens_prompt": 4744,
+  "tokens_salida": 249,
+  "tok_s_salida": 2.37
+ },
+ {
+  "id": 10,
+  "respuesta_modelo": "Según el informe, el EBITDA ajustado sube un 7,5% debido a la creación de una base de activos regulados más grande en todas las regiones, así como a mayores tarifas y una mayor contribución de actividades de transmisión en el Reino Unido y en Estados Unidos.\n\nSin embargo, el EBITDA reportado baja un 0,7% debido a la reconocimiento de costos pasados en Estados Unidos, que se tradujeron en una disminución del EBITDA reportado. Esto se debe a que, según el informe, en 2025 se reconocieron costos pasados en Estados Unidos que no tenían un impacto en el flujo de efectivo, y que se excluyeron de la cuenta de EBITDA ajustada.\n\nEn otras palabras, el EBITDA ajustado refleja la situación actual, mientras que el EBITDA reportado refleja la situación anterior, con los costos pasados reconocidos en 2025. Esto explica la diferencia entre el aumento del 7,5% en el EBITDA ajustado y la disminución del 0,7% en el EBITDA reportado.",
+  "segundos": 116.1,
+  "tokens_prompt": 4757,
+  "tokens_salida": 258,
+  "tok_s_salida": 2.31
+ },
+ {
+  "id": 11,
+  "respuesta_modelo": "Según el informe de Iberdrola, el resultado financiero empeoró en el primer semestre de 2026 debido a varios factores. A continuación, se presentan algunos de los motivos mencionados en el informe:\n\n1. **Ganancias y pérdidas en derivados y otros activos**: En el primer semestre de 2025, Iberdrola había reconocido ganancias significativas en derivados y otros activos, lo que había contribuido a mejorar su resultado financiero. Sin embargo, en el primer semestre de 2026, estas ganancias se redujeron significativamente, lo que afectó negativamente el resultado financiero.\n2. **Costos de endeudamiento**: El costo de endeudamiento de Iberdrola aumentó en el primer semestre de 2026, lo que contribuyó a empeorar su resultado financiero. Esto se debió en parte a la mayor participación de deuda en monedas extranjeras, como el dólar estadounidense y el real brasileño, que aumentaron en valor.\n3. **Ganancias en \"derivados y otros activos\"**: Aunque Iberdrola había reconocido ganancias significativas en derivados y otros activos en el primer semestre de 2025, en el primer semestre de 2026, estas ganancias se redujeron significativamente. Esto se debió en parte a la mayor volatilidad de los precios de las materias primas y a la mayor exposición de la empresa a los riesgos de mercado.\n4. **Impacto de la venta de activos**: La venta de activos, como la venta de la empresa mexicana de energía, también tuvo un impacto negativo en el resultado financiero de Iberdrola. La venta",
+  "segundos": 178.3,
+  "tokens_prompt": 4740,
+  "tokens_salida": 400,
+  "tok_s_salida": 2.27
+ },
+ {
+  "id": 12,
+  "respuesta_modelo": "Según el informe de Iberdrola, el grupo pagará aproximadamente EUR 5.000 millones por la adquisición de Caruna, Finlandia's leading electricity distribution company. Sin embargo, solo 80% de la empresa será adquirida por Iberdrola, lo que significa que el resto (20%) será propiedad de fondos de pensiones nórdicos (AMF y Elo).",
+  "segundos": 42.0,
+  "tokens_prompt": 4747,
+  "tokens_salida": 89,
+  "tok_s_salida": 2.32
+ },
+ {
+  "id": 13,
+  "respuesta_modelo": "Según el informe de Iberdrola, a cierre de septiembre de 2026, la empresa contaba con un total de 73.000 empleados.",
+  "segundos": 19.1,
+  "tokens_prompt": 4751,
+  "tokens_salida": 39,
+  "tok_s_salida": 2.49
+ },
+ {
+  "id": 14,
+  "respuesta_modelo": "Según el informe de Iberdrola, el beneficio neto solo del tercer trimestre (julio a septiembre) fue de EUR 5.816.1 millones.",
+  "segundos": 21.4,
+  "tokens_prompt": 4750,
+  "tokens_salida": 42,
+  "tok_s_salida": 2.33
+ },
+ {
+  "id": 15,
+  "respuesta_modelo": "El informe no proporciona un precio objetivo específico para la acción de Iberdrola. Sin embargo, se menciona que el informe de resultados de Iberdrola para el período de nueve meses de 2026 ha sido publicado y que se puede encontrar en la página web de la empresa.\n\nEn cuanto a la valoración de la acción, el informe menciona que el precio de la acción de Iberdrola ha variado en el mercado en función de los resultados financieros y la situación económica general. Sin embargo, no se proporciona una estimación específica de precio objetivo para la acción.\n\nEs importante tener en cuenta que la valoración de las acciones de una empresa puede variar en función de varios factores, como la tendencia de la empresa, la competencia, la economía general y la percepción del mercado. Por lo tanto, es recomendable consultar con un analista financiero o realizar tu propia investigación antes de tomar cualquier decisión de inversión.",
+  "segundos": 94.7,
+  "tokens_prompt": 4740,
+  "tokens_salida": 211,
+  "tok_s_salida": 2.28
+ }
+]

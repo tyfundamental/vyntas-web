@@ -1,0 +1,122 @@
+[
+ {
+  "id": 1,
+  "respuesta_modelo": "Según el informe, el beneficio neto reportado de Iberdrola en los nueve primeros meses de 2026 fue de **EUR 5,816.1 millones**.  Creció un **9.6%** en comparación con el mismo período del año anterior.",
+  "segundos": 148.6,
+  "tokens_prompt": 5179,
+  "tokens_salida": 60,
+  "tok_s_salida": 3.37
+ },
+ {
+  "id": 2,
+  "respuesta_modelo": "Según el informe, el beneficio neto ajustado fue de **EUR 5,140.5 millones** y creció un **8.8%** en comparación con septiembre de 2025.",
+  "segundos": 13.9,
+  "tokens_prompt": 5164,
+  "tokens_salida": 45,
+  "tok_s_salida": 3.63
+ },
+ {
+  "id": 3,
+  "respuesta_modelo": "Según el informe, el EBITDA ajustado fue de **EUR 11,890.6 millones** y creció un **7.5%** en comparación con septiembre de 2025.",
+  "segundos": 14.7,
+  "tokens_prompt": 5163,
+  "tokens_salida": 45,
+  "tok_s_salida": 3.46
+ },
+ {
+  "id": 4,
+  "respuesta_modelo": "Según el informe, Iberdrola invirtió un total de **10,087.2 millones de euros** en el periodo (enero a septiembre de 2026).",
+  "segundos": 13.7,
+  "tokens_prompt": 5163,
+  "tokens_salida": 42,
+  "tok_s_salida": 3.43
+ },
+ {
+  "id": 5,
+  "respuesta_modelo": "El dividendo a cuenta de 2026 por acción es de **0,275 euros brutos por acción**.",
+  "segundos": 9.9,
+  "tokens_prompt": 5168,
+  "tokens_salida": 28,
+  "tok_s_salida": 3.59
+ },
+ {
+  "id": 6,
+  "respuesta_modelo": "Según el informe, la deuda financiera neta ajustada al 30 de septiembre de 2026 es de **EUR 54,561 millones**.",
+  "segundos": 11.8,
+  "tokens_prompt": 5162,
+  "tokens_salida": 38,
+  "tok_s_salida": 3.69
+ },
+ {
+  "id": 7,
+  "respuesta_modelo": "El beneficio neto reportado (EUR 5,816.1 millones) es mayor que el beneficio neto ajustado (EUR 5,140.5 millones) debido a la inclusión de ganancias extraordinarias provenientes de la venta de la empresa mexicana. \n\nEl informe detalla que esta ganancia de EUR 953.0 millones, derivada de la venta de la empresa mexicana, se incluye en el beneficio neto reportado como parte de las \"Operaciones Continuadas\" (Continuated Operations) según las normas contables (IFRS 5). \n\nEn cambio, el beneficio neto ajustado excluye esta ganancia, ya que se trata de una operación de desinversión que ya no forma parte del negocio principal de Iberdrola. Al excluirla, se obtiene el beneficio neto ajustado de EUR 5,140.5 millones.\n\nEn resumen, la diferencia se debe a que el informe presenta dos perspectivas: una que incluye todas las ganancias, independientemente de su naturaleza, y otra que se centra en el rendimiento operativo subyacente del negocio, excluyendo elementos no recurrentes.",
+  "segundos": 70.4,
+  "tokens_prompt": 5166,
+  "tokens_salida": 235,
+  "tok_s_salida": 3.41
+ },
+ {
+  "id": 8,
+  "respuesta_modelo": "Según el informe, el negocio que experimentó un crecimiento significativo en EBITDA ajustado fue **Redes** (Networks), con un aumento del 7.5%.\n\nEn contraste, el negocio que vio una disminución en EBITDA ajustado fue **Generación y Suministro** (Generation and Supply), con una caída del -1.5%.",
+  "segundos": 23.0,
+  "tokens_prompt": 5166,
+  "tokens_salida": 71,
+  "tok_s_salida": 3.34
+ },
+ {
+  "id": 9,
+  "respuesta_modelo": "Según el informe, el EBITDA de Generación y Clientes disminuyó debido a dos factores principales:\n\n1.  **Mayor costo de electricidad:** Las ventas de electricidad aumentaron, pero los costos de adquisición de esa electricidad también subieron debido a precios más altos, establecidos en 2025.\n2.  **Impacto de la venta de smart meters en el Reino Unido:** La venta de la empresa de smart meters en el Reino Unido tuvo un impacto negativo en el EBITDA de 2025.\n\nAdemás, el informe menciona que la caída se vio afectada por el reconocimiento de costos pasados en Estados Unidos, lo que también contribuyó a la disminución del EBITDA.",
+  "segundos": 42.1,
+  "tokens_prompt": 5165,
+  "tokens_salida": 141,
+  "tok_s_salida": 3.49
+ },
+ {
+  "id": 10,
+  "respuesta_modelo": "Según el informe, la diferencia entre el EBITDA reportado y el EBITDA ajustado se debe a dos factores principales:\n\n*   **Reconocimiento de costos pasados en Estados Unidos:** La empresa reconoció costos acumulados de proyectos en Estados Unidos, lo que redujo el EBITDA reportado en 530 millones de euros.\n*   **Venta de smart meters en el Reino Unido:** La venta de la empresa de smart meters en el Reino Unido generó una ganancia (capital gain) que se excluyó del EBITDA ajustado, lo que también contribuyó a la disminución del EBITDA reportado en 382 millones de euros.\n\nEn resumen, el EBITDA ajustado excluye estos elementos de ajuste, mientras que el EBITDA reportado los incluye, lo que genera la diferencia.",
+  "segundos": 51.5,
+  "tokens_prompt": 5178,
+  "tokens_salida": 164,
+  "tok_s_salida": 3.35
+ },
+ {
+  "id": 11,
+  "respuesta_modelo": "Según el informe, el resultado financiero (Net Profit) empeoró principalmente por dos factores clave:\n\n1.  **Reconocimiento de Costos Pasados en Estados Unidos:** La empresa tuvo que reconocer costos acumulados de proyectos en Estados Unidos que no tuvieron un impacto en efectivo en años anteriores. Esto resultó en una disminución significativa de EUR 389.2 millones en el resultado ajustado.\n\n2.  **Venta de Smart Meters en el Reino Unido:** La venta de la empresa de smart meters en el Reino Unido generó una ganancia de capital de EUR 381.7 millones, pero esta ganancia se excluyó del resultado ajustado para comparaciones más precisas.\n\nAdemás, el resultado se vio afectado por:\n\n*   **Impacto de Cambios de Divisas:** La depreciación del peso mexicano y del dólar estadounidense contribuyó a una pérdida en el resultado.\n*   **Costos de Procurement:** El aumento de los costos de adquisición de electricidad debido a una mayor demanda y precios más altos.\n\nEs importante destacar que el resultado ajustado (Adjusted Net Profit) ofrece una visión más clara del rendimiento subyacente de la empresa al excluir estos elementos de ajuste.",
+  "segundos": 75.1,
+  "tokens_prompt": 5161,
+  "tokens_salida": 252,
+  "tok_s_salida": 3.41
+ },
+ {
+  "id": 12,
+  "respuesta_modelo": "Según el informe, Iberdrola pagará aproximadamente **5.000 millones de euros** por la totalidad de Caruna. La transacción implica la adquisición de un **80%** de la empresa.",
+  "segundos": 14.2,
+  "tokens_prompt": 5166,
+  "tokens_salida": 44,
+  "tok_s_salida": 3.5
+ },
+ {
+  "id": 13,
+  "respuesta_modelo": "Según el informe, a cierre de septiembre de 2026, Iberdrola tenía **36.444 empleados**.",
+  "segundos": 10.6,
+  "tokens_prompt": 5170,
+  "tokens_salida": 30,
+  "tok_s_salida": 3.38
+ },
+ {
+  "id": 14,
+  "respuesta_modelo": "Según el informe, el beneficio neto para el tercer trimestre (julio a septiembre) de 2026 fue de **EUR 1,873.3 millones**.",
+  "segundos": 13.4,
+  "tokens_prompt": 5167,
+  "tokens_salida": 39,
+  "tok_s_salida": 3.33
+ },
+ {
+  "id": 15,
+  "respuesta_modelo": "El informe no proporciona un precio objetivo para la acción. Se centra en los resultados financieros y las operaciones de Iberdrola.",
+  "segundos": 9.0,
+  "tokens_prompt": 5162,
+  "tokens_salida": 26,
+  "tok_s_salida": 3.41
+ }
+]

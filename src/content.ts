@@ -101,11 +101,17 @@ const es = {
       subject: 'Flujo de contenidos con IA para mi empresa',
     },
   },
+  published: {
+    title: 'Publicado',
+    date: '23 de octubre de 2026',
+    item: 'Le doy a cinco modelos de IA los resultados de Iberdrola y compruebo qué entienden',
+    summary: 'ChatGPT y Gemini gratis frente a tres modelos en un ordenador propio: aciertos, invenciones, coste y cómo repetirlo.',
+    cta: 'Leer el experimento',
+  },
   next: {
     title: 'Próximos análisis',
     note: 'En preparación. Saldrán en vídeo, en artículo y en la newsletter.',
     items: [
-      'Experimento: le doy a un modelo de lenguaje unos resultados trimestrales y compruebo qué entiende',
       'Produzco un vídeo entero con IA: qué hace sola y qué no',
       'Monto una IA privada para una empresa agrícola: coste real y qué hace',
       'Modelos locales frente a la nube: qué datos salen de tu empresa',
@@ -237,11 +243,17 @@ const en: typeof es = {
       subject: 'AI content workflow for my company',
     },
   },
+  published: {
+    title: 'Published',
+    date: '23 October 2026',
+    item: 'I give five AI models Iberdrola’s results and check what they understand (in Spanish)',
+    summary: 'Free ChatGPT and Gemini against three models on your own computer: accuracy, made-up figures, cost and how to repeat it.',
+    cta: 'Read the experiment',
+  },
   next: {
     title: 'Coming up',
     note: 'In progress. Each one comes out as a video, an article and in the newsletter.',
     items: [
-      'Experiment: I give a language model a quarterly report and check what it understands',
       'I make a whole video with AI: what it does alone and what it doesn’t',
       'I build a private AI for a farming company: real cost and what it does',
       'Local models versus the cloud: what data leaves your company',

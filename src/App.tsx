@@ -4,10 +4,11 @@ import Trace from './Trace'
 import Newsletter from './Newsletter'
 import Founder from './Founder'
 import Legal from './Legal'
+import Article from './Article'
 import { LINKEDIN } from './pages'
 
-type Page = 'home' | 'fundador' | 'aviso-legal' | 'privacidad'
-const PAGES: Page[] = ['fundador', 'aviso-legal', 'privacidad']
+type Page = 'home' | 'fundador' | 'aviso-legal' | 'privacidad' | 'experimento-iberdrola'
+const PAGES: Page[] = ['fundador', 'aviso-legal', 'privacidad', 'experimento-iberdrola']
 
 function pageFromHash(): Page {
   const h = window.location.hash.slice(1) as Page
@@ -89,6 +90,7 @@ export default function App() {
         {page === 'fundador' && <Founder lang={lang} />}
         {page === 'aviso-legal' && <Legal doc="aviso" lang={lang} />}
         {page === 'privacidad' && <Legal doc="privacidad" lang={lang} />}
+        {page === 'experimento-iberdrola' && <Article lang={lang} />}
         {page === 'home' && (
           <>
         <section className="hero wrap" id="top">
@@ -146,6 +148,16 @@ export default function App() {
               </article>
             ))}
           </div>
+        </section>
+
+        <section className="published wrap" id="publicado" aria-labelledby="pub-title">
+          <h2 id="pub-title">{t.published.title}</h2>
+          <a className="pub-card" href="#experimento-iberdrola">
+            <span className="pub-date">{t.published.date}</span>
+            <span className="pub-title">{t.published.item}</span>
+            <span className="pub-sum">{t.published.summary}</span>
+            <span className="pub-cta">{t.published.cta}</span>
+          </a>
         </section>
 
         <section className="next wrap" id="proximos">

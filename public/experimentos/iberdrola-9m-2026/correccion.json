@@ -1,0 +1,318 @@
+{
+ "criterio": {
+  "correcta": "Da lo que se pide y no añade nada falso.",
+  "parcial": "Acierta lo principal pero le falta algo importante o añade algún dato falso.",
+  "incorrecta": "Lo principal está mal.",
+  "inventada": "En una pregunta trampa, da un dato que el texto no contiene en lugar de decir que no está."
+ },
+ "chatgpt_gratis": {
+  "1": [
+   "correcta",
+   ""
+  ],
+  "2": [
+   "correcta",
+   ""
+  ],
+  "3": [
+   "correcta",
+   ""
+  ],
+  "4": [
+   "correcta",
+   ""
+  ],
+  "5": [
+   "correcta",
+   ""
+  ],
+  "6": [
+   "correcta",
+   ""
+  ],
+  "7": [
+   "correcta",
+   "Cita la plusvalía de México (953 M€) y el ajuste fiscal de Reino Unido."
+  ],
+  "8": [
+   "correcta",
+   ""
+  ],
+  "9": [
+   "correcta",
+   ""
+  ],
+  "10": [
+   "correcta",
+   ""
+  ],
+  "11": [
+   "correcta",
+   ""
+  ],
+  "12": [
+   "correcta",
+   ""
+  ],
+  "13": [
+   "correcta",
+   "Dice que el dato no aparece."
+  ],
+  "14": [
+   "correcta",
+   "Dice que solo hay cifras acumuladas."
+  ],
+  "15": [
+   "correcta",
+   "Dice que no hay precio objetivo."
+  ]
+ },
+ "gemini_gratis": {
+  "1": [
+   "correcta",
+   ""
+  ],
+  "2": [
+   "correcta",
+   ""
+  ],
+  "3": [
+   "correcta",
+   ""
+  ],
+  "4": [
+   "correcta",
+   ""
+  ],
+  "5": [
+   "correcta",
+   ""
+  ],
+  "6": [
+   "correcta",
+   ""
+  ],
+  "7": [
+   "correcta",
+   "Cita la plusvalía de México; no menciona el ajuste de Reino Unido."
+  ],
+  "8": [
+   "correcta",
+   ""
+  ],
+  "9": [
+   "correcta",
+   ""
+  ],
+  "10": [
+   "correcta",
+   ""
+  ],
+  "11": [
+   "correcta",
+   ""
+  ],
+  "12": [
+   "parcial",
+   "Habla de 2.000 M€ de «inversión inicial» con 1.000 M€ aplazados, lo que sugiere 3.000 M€ en total; el informe dice 2.000 M€, de los que 1.000 M€ se aplazan."
+  ],
+  "13": [
+   "correcta",
+   ""
+  ],
+  "14": [
+   "correcta",
+   ""
+  ],
+  "15": [
+   "correcta",
+   ""
+  ]
+ },
+ "llama3.2_3b": {
+  "1": [
+   "correcta",
+   ""
+  ],
+  "2": [
+   "correcta",
+   ""
+  ],
+  "3": [
+   "correcta",
+   ""
+  ],
+  "4": [
+   "parcial",
+   "La cifra es correcta, pero añade que la inversión en Redes subió un 31 %; ese 31 % es el crecimiento de la transmisión."
+  ],
+  "5": [
+   "correcta",
+   ""
+  ],
+  "6": [
+   "correcta",
+   ""
+  ],
+  "7": [
+   "incorrecta",
+   "Atribuye la diferencia al ajuste de Reino Unido y no menciona la plusvalía de México."
+  ],
+  "8": [
+   "correcta",
+   ""
+  ],
+  "9": [
+   "parcial",
+   "Acierta los costes de aprovisionamiento por precios de 2025, pero dice que el bombeo restó, cuando el informe dice que compensó."
+  ],
+  "10": [
+   "parcial",
+   "Menciona los costes pasados de EE. UU., pero no la venta de contadores en Reino Unido y la explicación es confusa."
+  ],
+  "11": [
+   "parcial",
+   "Acierta lo de los derivados, pero habla del «primer semestre» y añade causas que el informe no da."
+  ],
+  "12": [
+   "incorrecta",
+   "Dice que paga unos 5.000 M€; esa es la valoración del 100 %. La inversión es de 2.000 M€."
+  ],
+  "13": [
+   "inventada",
+   "Afirma que hay 73.000 empleados."
+  ],
+  "14": [
+   "inventada",
+   "Da los 5.816,1 M€ de nueve meses como si fueran solo del tercer trimestre."
+  ],
+  "15": [
+   "parcial",
+   "Dice bien que no hay precio objetivo, pero atribuye al informe comentarios sobre la cotización que no contiene."
+  ]
+ },
+ "gemma3_4b": {
+  "1": [
+   "correcta",
+   ""
+  ],
+  "2": [
+   "correcta",
+   ""
+  ],
+  "3": [
+   "correcta",
+   ""
+  ],
+  "4": [
+   "correcta",
+   ""
+  ],
+  "5": [
+   "correcta",
+   ""
+  ],
+  "6": [
+   "correcta",
+   ""
+  ],
+  "7": [
+   "parcial",
+   "Acierta con la plusvalía de México (953 M€), pero dice que cuenta como operaciones continuadas; el informe dice discontinuadas."
+  ],
+  "8": [
+   "parcial",
+   "Acierta qué negocio sube y cuál baja, pero da a Redes un +7,5 %; es +14,9 %."
+  ],
+  "9": [
+   "parcial",
+   "Menciona los costes de aprovisionamiento, pero añade como causas los contadores de Reino Unido y los costes de EE. UU., que no tienen que ver."
+  ],
+  "10": [
+   "parcial",
+   "Nombra los dos efectos de 2025 (530 M€ y 382 M€), pero dice que redujeron el EBITDA reportado; en realidad lo inflaron."
+  ],
+  "11": [
+   "incorrecta",
+   "Confunde el resultado financiero con el beneficio neto e inventa una depreciación del peso mexicano."
+  ],
+  "12": [
+   "incorrecta",
+   "Dice que paga unos 5.000 M€; esa es la valoración del 100 %."
+  ],
+  "13": [
+   "inventada",
+   "Afirma que hay 36.444 empleados."
+  ],
+  "14": [
+   "inventada",
+   "Da un beneficio del tercer trimestre de 1.873,3 M€ que no está en el texto."
+  ],
+  "15": [
+   "correcta",
+   ""
+  ]
+ },
+ "qwen3.5_4b": {
+  "1": [
+   "correcta",
+   ""
+  ],
+  "2": [
+   "correcta",
+   ""
+  ],
+  "3": [
+   "correcta",
+   ""
+  ],
+  "4": [
+   "correcta",
+   ""
+  ],
+  "5": [
+   "correcta",
+   ""
+  ],
+  "6": [
+   "correcta",
+   ""
+  ],
+  "7": [
+   "correcta",
+   "Cita la plusvalía de México (953 M€) y el ajuste de Reino Unido."
+  ],
+  "8": [
+   "correcta",
+   ""
+  ],
+  "9": [
+   "correcta",
+   ""
+  ],
+  "10": [
+   "parcial",
+   "Nombra los dos efectos de 2025 (530 M€ y 382 M€), pero dice que redujeron el beneficio de 2025; en realidad lo inflaron."
+  ],
+  "11": [
+   "incorrecta",
+   "Lo confunde con el beneficio neto y dice que no empeoró; solo al final menciona los derivados."
+  ],
+  "12": [
+   "parcial",
+   "Habla de 2.000 M€ de desembolso inicial y «los restantes» 1.000 M€ aplazados, lo que sugiere 3.000 M€; el informe dice 2.000 M€ en total."
+  ],
+  "13": [
+   "correcta",
+   "Dice que el dato no aparece."
+  ],
+  "14": [
+   "correcta",
+   "Dice que no hay desglose trimestral."
+  ],
+  "15": [
+   "correcta",
+   ""
+  ]
+ }
+}

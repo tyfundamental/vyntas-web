@@ -1,0 +1,19 @@
+Gemini, versión gratuita sin iniciar sesión (gemini.google.com), 23 de octubre de 2026. El selector de modelo mostraba "Flash-Lite". Mismo texto de entrada (SHA-256 b9995be2a9c7daff3285c3d9ad73df727c5937b425bcaa84f5c88ab0905b2386), las 15 preguntas en un solo mensaje. Gemini respondió en una lista numerada; se copia en orden.
+
+Basándome en el informe de resultados de Iberdrola para los nueve primeros meses de 2026, aquí tienes las respuestas:
+
+1. El beneficio neto reportado fue de 5.816,1 millones de euros, lo que representa un crecimiento del 9,6%.
+2. El beneficio neto ajustado fue de 5.140,5 millones de euros, con un crecimiento del 8,8%.
+3. El EBITDA ajustado ascendió a 11.890,6 millones de euros, aumentando un 7,5%.
+4. La inversión total del periodo fue de 10.087,2 millones de euros (con un crecimiento del 13%).
+5. El dividendo a cuenta de 2026 se ha fijado en 0,275 euros brutos por acción (+8,7%).
+6. La deuda financiera neta ajustada se situó en 54.561 millones de euros.
+7. Porque el beneficio reportado incluye 953 millones de euros de plusvalías netas por la desinversión del negocio en México.
+8. El negocio de Redes creció (un 14,9% de EBITDA ajustado), mientras que Generación y Clientes retrocedió (un -1,5%).
+9. Bajó porque el incremento de la demanda y las ventas generó mayores costes de aprovisionamiento a precios fijados en 2025 que aún no se habían compensado totalmente con los nuevos precios de venta.
+10. El reportado baja un 0,7% por efectos extraordinarios registrados en 2025 que no se repiten (como el reconocimiento de costes pasados en EE. UU. y la venta de contadores inteligentes en el R. U.).
+11. Empeoró (hasta -1.687 millones de euros) debido a un peor rendimiento en "derivados y otros" por la ausencia de ingresos extraordinarios de 2025 y coberturas de divisas negativas.
+12. Iberdrola acordó adquirir un 80% de Caruna por 2.000 millones de euros en inversión inicial (con 1.000 millones diferidos a un año), valorando el 100% de la compañía en unos 5.000 millones de euros.
+13. El informe proporcionado no menciona el número total de empleados a cierre de septiembre de 2026.
+14. El informe detalla las cifras acumuladas de los nueve primeros meses, pero no desglosa de forma independiente el beneficio neto exclusivo del tercer trimestre.
+15. El informe no incluye ninguna estimación ni precio objetivo para la acción.

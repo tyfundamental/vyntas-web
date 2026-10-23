@@ -105,9 +105,9 @@ const es = {
     title: 'Próximos análisis',
     note: 'En preparación. Saldrán en vídeo, en artículo y en la newsletter.',
     items: [
-      'Monto una IA privada para una empresa agrícola: coste real y qué hace',
       'Experimento: le doy a un modelo de lenguaje unos resultados trimestrales y compruebo qué entiende',
       'Produzco un vídeo entero con IA: qué hace sola y qué no',
+      'Monto una IA privada para una empresa agrícola: coste real y qué hace',
       'Modelos locales frente a la nube: qué datos salen de tu empresa',
       'Cómo funciona un modelo de lenguaje, explicado por un físico',
       'IA en el aula: lo que funciona y lo que no después de un curso usándola',
@@ -241,9 +241,9 @@ const en: typeof es = {
     title: 'Coming up',
     note: 'In progress. Each one comes out as a video, an article and in the newsletter.',
     items: [
-      'I build a private AI for a farming company: real cost and what it does',
       'Experiment: I give a language model a quarterly report and check what it understands',
       'I make a whole video with AI: what it does alone and what it doesn’t',
+      'I build a private AI for a farming company: real cost and what it does',
       'Local models versus the cloud: what data leaves your company',
       'How a language model works, explained by a physicist',
       'AI in the classroom: what works and what doesn’t after a year of using it',

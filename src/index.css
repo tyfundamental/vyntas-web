@@ -1156,3 +1156,123 @@ a {
 .pill-inventada {
   background: #6b2a6e;
 }
+
+/* Ciencia explicada */
+.explained {
+  display: grid;
+  gap: 24px;
+  padding-top: 88px;
+}
+.explained .next-head p {
+  max-width: 62ch;
+}
+.exp-grid {
+  display: grid;
+  gap: 20px;
+}
+@media (min-width: 900px) {
+  .exp-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.ex-box {
+  margin-top: 36px;
+  padding: 20px 24px;
+  border-radius: 14px;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-left: 5px solid var(--cobalt);
+  max-width: 72ch;
+  display: grid;
+  gap: 8px;
+}
+.article-sec .ex-box {
+  margin-top: 4px;
+}
+.ex-box-class {
+  border-left-color: var(--amber);
+}
+.ex-box-title {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+.ex-box p {
+  margin: 0;
+}
+.ex-box ol {
+  margin: 0;
+  padding-left: 1.25em;
+  display: grid;
+  gap: 10px;
+}
+.ex-figure {
+  margin: 8px 0;
+  padding: 20px;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  display: grid;
+  gap: 10px;
+}
+.ex-figure svg {
+  width: 100%;
+  height: auto;
+  max-height: 320px;
+}
+.ex-figure figcaption {
+  font-size: 0.92rem;
+  color: var(--steel);
+  max-width: 68ch;
+}
+.ex-stroke {
+  fill: none;
+  stroke: var(--cobalt);
+  stroke-width: 2.2;
+  stroke-linecap: round;
+}
+.ex-dot {
+  fill: var(--amber);
+  stroke: var(--ink);
+  stroke-width: 1.2;
+}
+.ex-guide {
+  stroke: var(--steel);
+  stroke-width: 1;
+  stroke-dasharray: 3 4;
+}
+.ex-label {
+  font-family: var(--display);
+  font-size: 15px;
+  fill: var(--ink);
+}
+.ex-label-strong {
+  font-weight: 700;
+  fill: var(--cobalt);
+}
+.ex-muted {
+  fill: var(--steel);
+}
+.ex-band-wide {
+  fill: #e4e9f8;
+}
+.ex-band-narrow {
+  fill: #c3cff3;
+}
+.ex-critical {
+  stroke: var(--cobalt);
+  stroke-width: 2.5;
+}
+.ex-table {
+  max-width: 420px;
+}
+.exp-grid .pub-card {
+  align-content: start;
+  max-width: none;
+}
+.ex-box ol {
+  list-style: decimal;
+}
+.ex-list {
+  list-style: disc;
+}

@@ -3,7 +3,7 @@ export type Lang = 'es' | 'en'
 export const EMAIL = 'info@vyntas.com'
 
 const es = {
-  nav: { work: 'Qué hago', markets: 'Mercados', content: 'Contenidos', audience: 'Para quién', next: 'Próximos análisis', about: 'Fundador', contact: 'Contacto' },
+  nav: { explained: 'Ciencia explicada', work: 'Qué hago', markets: 'Mercados', content: 'Contenidos', audience: 'Para quién', next: 'Próximos análisis', about: 'Fundador', contact: 'Contacto' },
   newsletter: {
     title: 'La newsletter de Vyntas',
     text: 'Un correo cuando sale un análisis nuevo: qué he probado, qué ha funcionado y qué no. Sin spam y con baja en un clic.',
@@ -108,6 +108,25 @@ const es = {
     summary: 'ChatGPT y Gemini gratis frente a tres modelos en un ordenador propio: aciertos, invenciones, coste y cómo repetirlo.',
     cta: 'Leer el experimento',
   },
+  explained: {
+    title: 'Ciencia explicada',
+    intro: 'Los grandes descubrimientos que se están haciendo con IA, contados para alguien que empieza desde cero. Pensados para estudiantes de ESO y Bachillerato, y para cualquiera con curiosidad.',
+    items: [
+      {
+        id: 'navier-stokes',
+        tag: 'Matemáticas y física',
+        title: 'Navier-Stokes: el problema del millón que una IA dice haber resuelto',
+        summary: 'Por qué el agua podría “romper” las ecuaciones, qué demostró la IA de OpenAI en 2026 y qué falta por comprobar.',
+      },
+      {
+        id: 'riemann',
+        tag: 'Matemáticas',
+        title: 'La hipótesis de Riemann: el misterio de los primos y lo que ha conseguido la IA',
+        summary: 'Qué dice la hipótesis, por qué billones de comprobaciones no bastan y los dos avances de la IA en 2026.',
+      },
+    ],
+    cta: 'Leer la explicación',
+  },
   next: {
     title: 'Próximos análisis',
     note: 'En preparación. Saldrán en vídeo, en artículo y en la newsletter.',
@@ -145,7 +164,7 @@ const es = {
 }
 
 const en: typeof es = {
-  nav: { work: 'What I do', markets: 'Markets', content: 'Content', audience: 'Who it’s for', next: 'Coming up', about: 'Founder', contact: 'Contact' },
+  nav: { explained: 'Science explained', work: 'What I do', markets: 'Markets', content: 'Content', audience: 'Who it’s for', next: 'Coming up', about: 'Founder', contact: 'Contact' },
   newsletter: {
     title: 'The Vyntas newsletter',
     text: 'One email whenever a new analysis is out: what I tested, what worked and what didn’t. No spam, one-click unsubscribe.',
@@ -249,6 +268,25 @@ const en: typeof es = {
     item: 'I give five AI models Iberdrola’s results and check what they understand (in Spanish)',
     summary: 'Free ChatGPT and Gemini against three models on your own computer: accuracy, made-up figures, cost and how to repeat it.',
     cta: 'Read the experiment',
+  },
+  explained: {
+    title: 'Science explained',
+    intro: 'The big discoveries being made with AI, told for someone starting from zero. Written for secondary-school students and anyone curious. Articles in Spanish.',
+    items: [
+      {
+        id: 'navier-stokes',
+        tag: 'Maths and physics',
+        title: 'Navier–Stokes: the million-dollar problem an AI claims to have solved',
+        summary: 'Why water might “break” the equations, what OpenAI’s AI proved in 2026 and what is still being checked.',
+      },
+      {
+        id: 'riemann',
+        tag: 'Maths',
+        title: 'The Riemann hypothesis: the mystery of the primes and what AI has achieved',
+        summary: 'What the hypothesis says, why trillions of checks are not enough, and AI’s two steps forward in 2026.',
+      },
+    ],
+    cta: 'Read the explainer',
   },
   next: {
     title: 'Coming up',

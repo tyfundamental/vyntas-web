@@ -6,9 +6,10 @@ import Founder from './Founder'
 import Legal from './Legal'
 import Article from './Article'
 import { LINKEDIN } from './pages'
+import { NavierStokes, Riemann } from './Explainers'
 
-type Page = 'home' | 'fundador' | 'aviso-legal' | 'privacidad' | 'experimento-iberdrola'
-const PAGES: Page[] = ['fundador', 'aviso-legal', 'privacidad', 'experimento-iberdrola']
+type Page = 'home' | 'fundador' | 'aviso-legal' | 'privacidad' | 'experimento-iberdrola' | 'navier-stokes' | 'riemann'
+const PAGES: Page[] = ['fundador', 'aviso-legal', 'privacidad', 'experimento-iberdrola', 'navier-stokes', 'riemann']
 
 function pageFromHash(): Page {
   const h = window.location.hash.slice(1) as Page
@@ -74,6 +75,7 @@ export default function App() {
           vyntas
         </a>
         <nav aria-label={lang === 'es' ? 'Principal' : 'Main'}>
+          <a href="#explicada">{t.nav.explained}</a>
           <a href="#trabajo">{t.nav.work}</a>
           <a href="#para-quien">{t.nav.audience}</a>
           <a href="#proximos">{t.nav.next}</a>
@@ -91,6 +93,8 @@ export default function App() {
         {page === 'aviso-legal' && <Legal doc="aviso" lang={lang} />}
         {page === 'privacidad' && <Legal doc="privacidad" lang={lang} />}
         {page === 'experimento-iberdrola' && <Article lang={lang} />}
+        {page === 'navier-stokes' && <NavierStokes lang={lang} />}
+        {page === 'riemann' && <Riemann lang={lang} />}
         {page === 'home' && (
           <>
         <section className="hero wrap" id="top">
@@ -158,6 +162,23 @@ export default function App() {
             <span className="pub-sum">{t.published.summary}</span>
             <span className="pub-cta">{t.published.cta}</span>
           </a>
+        </section>
+
+        <section className="explained wrap" id="explicada" aria-labelledby="exp-title">
+          <div className="next-head">
+            <h2 id="exp-title">{t.explained.title}</h2>
+            <p>{t.explained.intro}</p>
+          </div>
+          <div className="exp-grid">
+            {t.explained.items.map((it) => (
+              <a className="pub-card" href={`#${it.id}`} key={it.id}>
+                <span className="pub-date">{it.tag}</span>
+                <span className="pub-title">{it.title}</span>
+                <span className="pub-sum">{it.summary}</span>
+                <span className="pub-cta">{t.explained.cta}</span>
+              </a>
+            ))}
+          </div>
         </section>
 
         <section className="next wrap" id="proximos">

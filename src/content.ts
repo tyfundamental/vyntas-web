@@ -110,7 +110,7 @@ const es = {
   },
   explained: {
     title: 'Ciencia explicada',
-    intro: 'Los grandes descubrimientos que se están haciendo con IA, contados para alguien que empieza desde cero. Pensados para estudiantes de ESO y Bachillerato, y para cualquiera con curiosidad.',
+    intro: 'Los grandes descubrimientos que se están haciendo con IA, contados para cualquiera con curiosidad, sin fórmulas y sin dar nada por sabido.',
     items: [
       {
         id: 'navier-stokes',
@@ -271,7 +271,7 @@ const en: typeof es = {
   },
   explained: {
     title: 'Science explained',
-    intro: 'The big discoveries being made with AI, told for someone starting from zero. Written for secondary-school students and anyone curious. Articles in Spanish.',
+    intro: 'The big discoveries being made with AI, told for anyone curious, with no formulas and nothing taken for granted. Articles in Spanish.',
     items: [
       {
         id: 'navier-stokes',

@@ -119,7 +119,7 @@ export function NavierStokes({ lang }: { lang: Lang }) {
           la sangre.
         </p>
         <p>
-          La idea de fondo la conoces de Física: es la segunda ley de Newton, fuerza igual a masa por aceleración, aplicada a
+          La idea de fondo es la segunda ley de Newton que se estudia en el instituto, fuerza igual a masa por aceleración, aplicada a
           cada trocito de fluido. Cada gota empuja a sus vecinas, la presión la empuja a ella y el rozamiento interno la frena.
         </p>
         <p>
@@ -228,22 +228,6 @@ export function NavierStokes({ lang }: { lang: Lang }) {
         </p>
       </section>
 
-      <Box title="Para hacer en clase" tone="class">
-        <ol>
-          <li>
-            <strong>Viscosidad.</strong> Deja caer a la vez una canica en un vaso de agua y otra en uno de aceite o miel. ¿Cuál
-            frena más? Esa es la viscosidad, el “freno” de las ecuaciones.
-          </li>
-          <li>
-            <strong>Remolino en botella.</strong> Llena una botella de agua, ponla boca abajo sobre un barreño y gírala en
-            círculos. Observa el remolino: el centro gira más rápido que el borde.
-          </li>
-          <li>
-            <strong>Para debatir.</strong> Si una IA demuestra algo que ninguna persona entiende del todo, ¿lo consideramos
-            conocimiento? ¿Quién debería llevarse el mérito?
-          </li>
-        </ol>
-      </Box>
 
       <section className="article-sec">
         <h2>Fuentes</h2>
@@ -403,22 +387,6 @@ export function Riemann({ lang }: { lang: Lang }) {
         </p>
       </section>
 
-      <Box title="Para hacer en clase" tone="class">
-        <ol>
-          <li>
-            <strong>La criba de Eratóstenes.</strong> Escribe los números del 1 al 100. Tacha los múltiplos de 2 (menos el 2),
-            luego los de 3, 5 y 7. Los que quedan son los primos. Comprueba que hay 25.
-          </li>
-          <li>
-            <strong>Primos cada vez más raros.</strong> Cuenta cuántos primos hay entre 1 y 50 y entre 51 y 100. ¿En qué tramo hay
-            más? Compáralo con la tabla de arriba.
-          </li>
-          <li>
-            <strong>Para debatir.</strong> Se han comprobado billones de casos y todos cumplen la hipótesis. ¿Por qué un
-            matemático no se conforma con eso? ¿Pasa lo mismo en otras ciencias, como la Física?
-          </li>
-        </ol>
-      </Box>
 
       <section className="article-sec">
         <h2>Fuentes</h2>
